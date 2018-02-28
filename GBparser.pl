@@ -1,4 +1,12 @@
 #!/usr/bin/perl -w
+#########################################################################
+#                                                                       #
+#  This program parse a Genbank file, extracting the ID, total length,  #
+#  3`UTR length or 5'UTR length and cds position.                       #
+#  INPUT: GBparser.pl file.gb output.txt 100                          	#
+#  OUTPUT: output.txt (ID utr-length cds-position)                      #
+#                                                                       #
+#########################################################################
 use strict;
 
 if (@ARGV == 4 ) 

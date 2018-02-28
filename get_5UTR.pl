@@ -1,3 +1,13 @@
+#############################################################################
+#                                                                       	#
+#  This program  uses a fasta file, ids and cds length (output of XMLparser)#
+#  to generate a output with the sequence 5'UTR region only.		       	#
+#  INPUT: get_5UTR.pl sequence.fa output_xml.txt                         	#
+#  OUTPUT: virus_5UTR.fa 							                      	#
+#                                                                       	#
+#############################################################################
+
+
 #!/usr/bin/perl -w
 use strict;
 

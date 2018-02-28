@@ -1,3 +1,13 @@
+#########################################################################
+#                                                                       #
+#	This program has as input the output of XMLparser and selects only	#
+#	utr region with a specific size. this helps to align only same size #
+#	sequences.															#
+#	INPUT: select_utr.pl output-xmlparser.txt                           #
+#	OUTPUT: output.txt													#
+#                                                                       #
+#########################################################################
+
 #!/usr/bin/perl -w
 use strict;
 

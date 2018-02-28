@@ -1,3 +1,10 @@
+######################################################################
+#	This program parse fasta file and divided in 3 regions a genome  #
+#	sequence, the size of each on is determined by input.            #   
+#	INPUT: select_regions.pl sequence.fa output.txt reg2 reg3        #
+#	OUTPUT: output_R1.fa  output_R2.fa output_R3.fa 				 #
+######################################################################
+
 #!/usr/bin/perl -w
 use strict;
 

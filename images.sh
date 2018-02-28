@@ -1,3 +1,10 @@
+#################################################################################
+#                                                                               #
+#   This script rusn all programs to generate secondary structure images        #
+#   Remove redundancy in sequences (prinseq-lite.pl), multiple align (muscle),  #
+#   RNAz, RNAfold and perl script to generate images                            #
+#################################################################################
+
 #!/bin/bash
 
 DIR=$1 #sequence fasta

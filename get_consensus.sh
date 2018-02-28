@@ -1,3 +1,10 @@
+#############################################################################
+#   This program selects RNAz consensus sequence, remove gaps,              #
+#   and writes all virus consensus sequences in targets/. Also              #
+#   generate secondary structure and target scan file.                      #
+#  INPUT: ./get_consensus.sh                                                #
+#############################################################################
+
 #!/bin/bash
 
 function denv {
@@ -5,16 +12,20 @@ function denv {
     do
         #open denv/5utr directory
         cd denv${x}/5UTR/
-        echo ">5UTR" >> ../../consensus_denv${x}.fa
-        perl -ne 'print if $,;$, = />consensus/' denv${x}.out >> ../../consensus_denv${x}.fa
+        rm ../targets/*.*
+        # fasta sequence without gaps    
+        echo ">5UTR" >> ../targets/consensus_denv${x}.fa
+        consensus=$(perl -ne 'print if $,;$, = />consensus/' denv${x}.out | sed -e 's/_//g')
+        echo $consensus  >> ../targets/consensus_denv${x}.fa
+
 
         # Bracket dot structure
-        echo ">5UTR" >> ../../consensus_denv${x}.fold
-        perl -ne 'print if eof' denv${x}.out >> ../../consensus_denv${x}.fold
+        echo ">5UTR" >> ../targets/consensus_denv${x}.fold
+        echo $consensus | RNAfold -p >> ../targets/consensus_denv${x}.fold
 
         # Target scan format
-        echo -n "5UTR 9606  " >> ../../ts_denv${x}.txt
-        perl -ne 'print if $,;$, = />consensus/' denv${x}.out >> ../../ts_denv${x}.txt
+        echo -n "5UTR 9606  " >> ../targets/ts_denv${x}.txt
+        echo $consensus >> ../targets/ts_denv${x}.txt
 
         #open denv/3utr directory
         cd ../3UTR/
@@ -22,20 +33,23 @@ function denv {
         do
             # do it for each region
             cd R${y}/
-            echo ">R${y}" >> ../../../consensus_denv${x}.fa
-            perl -ne 'print if $,;$, = />consensus/' denv${x}_R${y}.out >> ../../../consensus_denv${x}.fa
+            # fasta sequence without gaps
+            echo ">R${y}" >> ../../targets/consensus_denv${x}.fa
+            
+            consensus=$(perl -ne 'print if $,;$, = />consensus/' denv${x}_R${y}.out| sed -e 's/_//g')
+            echo $consensus  >> ../../targets/consensus_denv${x}.fa
 
             # Bracket dot structure
-            echo ">R${y}" >> ../../../consensus_denv${x}.fold
-            perl -ne 'print if eof' denv${x}_R${y}.out >> ../../../consensus_denv${x}.fold
+            echo ">R${y}" >> ../../targets/consensus_denv${x}.fold
+            echo $consensus | RNAfold -p  >> ../../targets/consensus_denv${x}.fold
 
             # Target scan format
-            echo -n "R${y} 9606    " >> ../../../ts_denv${x}.txt
-            perl -ne 'print if $,;$, = />consensus/' denv${x}_R${y}.out >> ../../../ts_denv${x}.txt
+            echo -n "R${y} 9606    " >> ../../targets/ts_denv${x}.txt
+            echo $consensus >> ../../targets/ts_denv${x}.txt
 
             cd ..
         done
-        #go back to data/
+        #go back to data/0
         cd ../../
     done
 }
@@ -43,16 +57,21 @@ function denv {
 function yfv {
         #open denv/5utr directory
         cd YFV/5UTR/
-        echo ">5UTR" >> ../../consensus_yfv.fa
-        perl -ne 'print if $,;$, = />consensus/' yfv.out >> ../../consensus_yfv.fa
+        rm ../targets/*.*
 
+        # fasta sequence without gaps
+        echo ">5UTR" >> ../targets/consensus_yfv.fa
+
+        consensus=$(perl -ne 'print if $,;$, = />consensus/' yfv.out | sed -e 's/_//g')
+        echo $consensus >> ../targets/consensus_yfv.fa
+                
         # Bracket dot structure
-        echo ">5UTR" >> ../../consensus_yfv.fold
-        perl -ne 'print if eof' yfv.out >> ../../consensus_yfv.fold
+        echo ">5UTR" >> ../targets/consensus_yfv.fold
+        echo $consensus | RNAfold -p >> ../targets/consensus_yfv.fold
 
          # Target scan format
-        echo -n "5UTR 9606    " >> ../../ts_yfv.txt
-        perl -ne 'print if $,;$, = />consensus/' yfv.out >> ../../ts_yfv.txt
+        echo -n "5UTR 9606    " >> ../targets/ts_yfv.txt
+        echo $consensus >> ../targets/ts_yfv.txt
 
         #open denv/3utr directory
         cd ../3UTR
@@ -60,36 +79,44 @@ function yfv {
         do
             # do it for each region
             cd R${y}/
-            echo ">R${y}" >> ../../../consensus_yfv.fa
-            perl -ne 'print if $,;$, = />consensus/' yfv_R${y}.out >> ../../../consensus_yfv.fa
+            # fasta sequence without gaps
+            echo ">R${y}" >> ../../targets/consensus_yfv.fa
+
+            consensus=$(perl -ne 'print if $,;$, = />consensus/' yfv_R${y}.out | sed -e 's/_//g')
+            echo $consensus >> ../../targets/consensus_yfv.fa  
 
             # Bracket dot structure
-            echo ">R${y}" >> ../../../consensus_yfv.fold
-            perl -ne 'print if eof' yfv_R${y}.out >> ../../../consensus_yfv.fold
+            echo ">R${y}" >> ../../targets/consensus_yfv.fold
+            echo $consensus | RNAfold -p >> ../../targets/consensus_yfv.fold
 
             # Target scan format
-            echo -n "R${y} 9606    " >> ../../../ts_yfv.txt
-            perl -ne 'print if $,;$, = />consensus/' yfv_R${y}.out >> ../../../ts_yfv.txt
+            echo -n "R${y} 9606    " >> ../../targets/ts_yfv.txt
+            echo $consensus >> ../../targets/ts_yfv.txt
             cd ..
         done
         #go back to data/
         cd ../../
 }
 
-
 function zikv {
-            #open denv/5utr directory
+        #open denv/5utr directory
         cd ZIKV/5UTR/
-        echo ">5UTR" >> ../../consensus_zikv.fa
-        perl -ne 'print if $,;$, = />consensus/' zikv.out >> ../../consensus_zikv.fa
+        # Clear previous files
+        rm ../targets/*.* 
+        
+        # fasta sequence without gaps
+        echo ">5UTR" >> ../targets/consensus_zikv.fa
+
+        consensus=$(perl -ne 'print if $,;$, = />consensus/' zikv.out | sed -e 's/_//g')
+        echo $consensus >> ../targets/consensus_zikv.fa
 
         # Bracket dot structure
-        echo ">5UTR" >> ../../consensus_zikv.fold
-        perl -ne 'print if eof' zikv.out >> ../../consensus_zikv.fold
+        echo ">5UTR" >> ../targets/consensus_zikv.fold
+        echo $consensus | RNAfold -p >> ../targets/consensus_zikv.fold
 
         # Target scan format
-        echo -n "5UTR 9606    " >> ../../ts_zikv.txt
-        perl -ne 'print if +$,;$, = />consensus/' zikv.out >> ../../ts_zikv.txt
+        echo -n "5UTR 9606    " >> ../targets/ts_zikv.txt
+        echo $consensus >> ../targets/ts_zikv.txt
 
         #open denv/3utr directory
         cd ../3UTR
@@ -97,16 +124,19 @@ function zikv {
         do
             # do it for each region
             cd R${y}/
-            echo ">R${y}" >> ../../../consensus_zikv.fa
-            perl -ne 'print if $,;$, = />consensus/' zikv_R${y}.out >> ../../../consensus_zikv.fa
+            # fasta sequence without gaps
+            echo ">R${y}" >> ../../targets/consensus_zikv.fa
+
+            consensus=$(perl -ne 'print if $,;$, = />consensus/' zikv_R${y}.out | sed -e 's/_//g')
+            echo $consensus >> ../../targets/consensus_zikv.fa
 
             # Bracket dot structure
-            echo ">R${y}" >> ../../../consensus_zikv.fold
-            perl -ne 'print if eof' zikv_R${y}.out >> ../../../consensus_zikv.fold
+            echo ">R${y}" >> ../../targets/consensus_zikv.fold
+            echo $consensus | RNAfold -p >> ../../targets/consensus_zikv.fold
 
             # Target scan format
-            echo -n "R${y} 9606    " >> ../../../ts_zikv.txt
-            perl -ne 'print if $,;$, = />consensus/' zikv_R${y}.out >> ../../../ts_zikv.txt
+            echo -n "R${y} 9606    " >> ../../targets/ts_zikv.txt
+            echo $consensus >> ../../targets/ts_zikv.txt
             cd ..
         done
         #go back to data/
@@ -115,7 +145,6 @@ function zikv {
 }
 
     cd data/
-    rm consensus_*.fa ts_*.txt *.fold
     denv
     yfv
     zikv

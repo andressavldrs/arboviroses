@@ -1,3 +1,9 @@
+#################################################################
+#   Runs all scripts get only non coding regions                #
+#   INPUT: .\autorun.sh full_sequence.fasta                     #
+#    xml_with_regions_data/genbank-file minimum-nucleotides     #
+#################################################################
+
 #!/bin/bash
 
 SEQ=$1 #sequence fasta

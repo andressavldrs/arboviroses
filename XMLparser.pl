@@ -1,13 +1,13 @@
-#!/bin/perl -w
-
 #########################################################################
 #                                                                       #
 #  This program parse a XML file, extracting the ID, total length,      #
-#  3`UTR length or 5'UTR length and cds position.                                       #
+#  3`UTR length or 5'UTR length and cds position.                       #
 #  INPUT: XMLparser.pl file.xml output.txt 100                          #
 #  OUTPUT: output.txt (ID utr-length cds-position)                      #
 #                                                                       #
 #########################################################################
+
+#!/bin/perl -w
 
 use strict;
 use XML::Twig;
