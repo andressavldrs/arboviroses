@@ -1,0 +1,9 @@
+>5UTR
+
+>R1
+
+>R2
+
+>R3
+#no	visiRNAdb ID	SubmitGenesubmit	Sequence	SubmitEfficacysubmit	Start Postion
+1	virsi2336	3'UTR	aacagcauauugacgcugg	0	17  

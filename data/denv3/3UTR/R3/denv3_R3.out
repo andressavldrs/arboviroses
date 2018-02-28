@@ -1,0 +1,84 @@
+
+############################  RNAz 2.1  ##############################
+
+ Sequences: 19
+ Columns: 127
+ Reading direction: forward
+ Mean pairwise identity:  97.31
+ Shannon entropy: 0.07254
+ G+C content: 0.50585
+ Mean single sequence MFE: -35.38
+ Consensus MFE: -30.37
+ Energy contribution: -30.74
+ Covariance contribution:   0.37
+ Combinations/Pair:   1.00
+ Mean z-score:  -1.47
+ Structure conservation index:   0.86
+ Background model: dinucleotide
+ Decision model: sequence based alignment quality
+ SVM decision value:  -0.29
+ SVM RNA-class probability: 0.354765
+ Prediction: OTHER
+
+######################################################################
+
+>KT424097
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAAGUCGUGGG-AGG
+..............((((......)))).(((((.................(((.((((((.((((((((.....)))..))))))))))).))).....(((.......))).....)))))-... ( -37.20, z-score =  -0.78, R)
+>FJ639719
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAAAGAAAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).(((((((...................))))-))) ( -31.91, z-score =  -1.06, R)
+>KJ830751
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAG-ACGCCAGAAAAUGGGCAUA
+(((...(((...((.(((.((((((((.....(((........((((........))))(((...........)))))).))))))))))).))..))).(((....-..))).........))).. ( -35.60, z-score =  -1.10, R)
+>FJ390373
+UGCAAAGGACUAGAGGUUAGAGGAGCCCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGGACAGAACGGCAGAAAAUGGA-AUG
+(((...(..((...((((.....))))..(((((...........))....(((.((((((.((((((((.....)))..))))))))))).))).....)))..))..).))).........-... ( -32.60, z-score =  -0.11, R)
+>FJ024465
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAACAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.40, z-score =  -1.60, R)
+>EU529705
+UGCAAAGGACCAGAGGUUAGAGGAGACCCCCCGCAAACAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....((((...)))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -36.80, z-score =  -2.02, R)
+>FJ182005
+UGCAAAGGACCAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGGACGCCAGAAAAUGGA-AUG
+(((....((((...)))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -36.80, z-score =  -1.65, R)
+>GQ868634
+UGCAAAGGACCAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....((((...)))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -36.80, z-score =  -2.12, R)
+>FJ639786
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAGAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....((((.......((((........))))((.....)).......)))).)))))))).))).((((((((((.......)))......))))-))) ( -37.60, z-score =  -2.10, R)
+>FJ547078
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAUAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.20, z-score =  -1.56, R)
+>FJ898441
+UGUAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+...............(((.((((((((.....(((........((((........))))(((...........)))))).)))))))))))..((((((((((.......)))......))))-))) ( -33.40, z-score =  -1.20, R)
+>FJ639747
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGCA-AUG
+((((..(((...((.(((.((((((((.....(((........((((........))))(((...........)))))).))))))))))).))..))).(((.......)))......))))-... ( -36.30, z-score =  -2.13, R)
+>FJ373304
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUACAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.40, z-score =  -1.57, R)
+>EU726771
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGGACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).(((((((.((........))......))))-))) ( -33.80, z-score =  -1.02, R)
+>EU781136
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAGAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.40, z-score =  -1.45, R)
+>FJ639769
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCCCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((...((......((((......))))))..)))....................((((((.((((((((.....)))..)))))))))))..((((((((((.......)))......))))-))) ( -35.80, z-score =  -2.08, R)
+>FJ639713
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUGAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.40, z-score =  -1.36, R)
+>FJ898473
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAGCGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.40, z-score =  -1.28, R)
+>FJ182039
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA-AUG
+(((....(((.....))).((((((((.....(((........((((........))))(((...........)))))).)))))))).))).((((((((((.......)))......))))-))) ( -35.40, z-score =  -1.68, R)
+>consensus
+UGCAAAGGACUAGAGGUUAGAGGAGACCCCCCGCAAAUAAAAACAGCAUAUUGACGCUGGGAGAGACCAGAGAUCCUGCUGUCUCCUCAGCAUCAUUCCAGGCACAGAACGCCAGAAAAUGGA_AUG
+......(((...((.(((.((((((((.....(((........((((........))))(((...........)))))).))))))))))).))..))).(((.......))).............. (-30.37 = -30.74 +   0.37) 
