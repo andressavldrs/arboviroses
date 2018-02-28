@@ -4,11 +4,11 @@
 
 >R2
 #no	visiRNAdb ID	SubmitGenesubmit	Sequence	SubmitEfficacysubmit	Start Postion
-1	virsi2334	3'UTR	gguuagaggagaccccucc	0	79  
+1	virsi2334	3'UTR	gguuagaggagaccccucc	0	77  
 
 >R3
 #no	visiRNAdb ID	SubmitGenesubmit	Sequence	SubmitEfficacysubmit	Start Postion
-1	virsi1501	3'UTR	aaaaacagcauauugacgcug	53	43  
-2	virsi2335	3'UTR	ggacuagagguuagaggag	0	11  
-3	virsi2336	3'UTR	aacagcauauugacgcugg	0	46  
-4	virsi2337	3'UTR	ccagagauccugcugucuc	0	71  
+1	virsi1501	3'UTR	aaaaacagcauauugacgcug	53	40  
+2	virsi2335	3'UTR	ggacuagagguuagaggag	0	8  
+3	virsi2336	3'UTR	aacagcauauugacgcugg	0	43  
+4	virsi2337	3'UTR	ccagagauccugcugucuc	0	68   

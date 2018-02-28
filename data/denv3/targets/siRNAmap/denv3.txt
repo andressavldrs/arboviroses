@@ -1,12 +1,12 @@
 >5UTR
 #no	visiRNAdb ID	SubmitGenesubmit	Sequence	SubmitEfficacysubmit	Start Postion
-1	virsi2332	5'UTR	auuagagagcagaucucug	0	75  
-2	virsi2331	5'UTR	aguuguuagucuacguggac	High
+1	virsi2332	5'UTR	auuagagagcagaucucug	0	80  
+2	virsi2331	5'UTR	aguuguuagucuacguggac	High	5  
+
 
 >R1
 
 >R2
-
 #no	visiRNAdb ID	SubmitGenesubmit	Sequence	SubmitEfficacysubmit	Start Postion
 1	virsi2334	3'UTR	gguuagaggagaccccucc	0	84  
 
