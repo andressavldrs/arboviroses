@@ -1,0 +1,15 @@
+^>hsa|^>ptr|^>pps|^>ggo|^>pon|^>nle|^>mcc|^>mcf|^>csab|^>rro|^>rbb|^>cjc|^>sbq
+
+hsa	Homo sapiens (human)	RefSeq
+ptr	Pan troglodytes (chimpanzee)	RefSeq
+pps	Pan paniscus (bonobo)	RefSeq
+ggo	Gorilla gorilla gorilla (western lowland gorilla)	RefSeq
+pon	Pongo abelii (Sumatran orangutan)	RefSeq
+nle	Nomascus leucogenys (northern white-cheeked gibbon)	RefSeq
+mcc	Macaca mulatta (rhesus monkey)	RefSeq
+mcf	Macaca fascicularis (crab-eating macaque)	RefSeq
+csab	Chlorocebus sabaeus (green monkey)	RefSeq
+rro	Rhinopithecus roxellana (golden snub-nosed monkey)	RefSeq
+rbb	Rhinopithecus bieti (black snub-nosed monkey)	RefSeq
+cjc	Callithrix jacchus (white-tufted-ear marmoset)	RefSeq
+sbq	Saimiri boliviensis boliviensis (Bolivian squirrel monkey)	RefSeq	
