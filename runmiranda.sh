@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  Runs miranda, structure_position and count_occurences to  all dengue virus
+#  Run miranda, structure_position and count_occurences to all dengue virus
 #  sorotypes. Reads from 3UTR and 5UTR, writes in targets/miranda/
 readonly QUERY="mature_primates.fa"
 readonly PARAMS="-quiet -strict -sc 150 -en -7"
