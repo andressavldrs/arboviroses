@@ -1,0 +1,51 @@
+microRNA: ggo-miR-140
+	position: 32 53
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: ggo-miR-141
+	position: 52 71
+	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:3
+microRNA: ggo-miR-299
+	position: 29 49
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-181d-3p
+	position: 49 70
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-1914-3p
+	position: 80 100
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:29
+microRNA: hsa-miR-299-5p
+	position: 28 49
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-3181
+	position: 109 129
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:29
+microRNA: hsa-miR-4286
+	position: 107 124
+	>Target: eeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-4633-3p
+	position: 1 14
+	>Target: eeeeeeeeeeeee	Occurrences:24
+microRNA: hsa-miR-4758-3p
+	position: 104 125
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-650
+	position: 129 152
+	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-6778-3p
+	position: 21 41
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:12
+microRNA: hsa-miR-6779-5p
+	position: 83 103
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:29
+microRNA: hsa-miR-7156-3p
+	position: 23 45
+	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:27
+microRNA: hsa-miR-8086
+	position: 61 82
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:23
+microRNA: ptr-miR-299
+	position: 28 49
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: ptr-miR-650
+	position: 129 152
+	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:1

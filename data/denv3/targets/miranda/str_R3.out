@@ -1,0 +1,85 @@
+microRNA: hsa-miR-1254
+	position: 75 104
+	 Target: eeeeeeeeeeeeeeeeeeeeIIIIIIHhh	Occurrences:15
+	 Target: eeeeeeeeeeeeeeeeeeeeIiIIIIHhh	Occurrences:1
+	 Target: eeeeeeeeeeeeeeeeeeeeIIIIiiHhh	Occurrences:1
+microRNA: hsa-miR-1271-3p
+	position: 84 106
+	 Target: eeeeeeeeeeeIIIIIIHhhhh	Occurrences:1
+	position: 83 106
+	 Target: eeeeeeeeeeeeIIIIIIHhhhh	Occurrences:14
+	 Target: eeeeeeeeeeeeIiIIIIHhhhh	Occurrences:1
+	 Target: eeeeeeeeeeeeIIIIiiHhhhh	Occurrences:1
+microRNA: hsa-miR-1322
+	position: 79 97
+	>Target: eeeeeeeeeeeeeeeeIi	Occurrences:1
+	>Target: eeeeeeeeeeeeeeeeII	Occurrences:18
+microRNA: hsa-miR-1914-5p
+	position: 88 109
+	>Target: eeeeeeeIIIIIIHhhhhhhh	Occurrences:1
+microRNA: hsa-miR-3116
+	position: 82 104
+	 Target: eeeeeeeeeeeeeIIIIIIHhh	Occurrences:15
+	 Target: eeeeeeeeeeeeeIIIIiiHhh	Occurrences:1
+	 Target: eeeeeeeeeeeeeIiIIIIHhh	Occurrences:1
+microRNA: hsa-miR-3150a-3p
+	position: 70 90
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-3175
+	position: 71 89
+	>Target: eeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-3191-5p
+	position: 54 74
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:19
+microRNA: hsa-miR-3619-5p
+	position: 61 82
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:19
+microRNA: hsa-miR-4667-5p
+	position: 69 91
+	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-4689
+	position: 71 90
+	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:18
+microRNA: hsa-miR-4700-5p
+	position: 71 91
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-4731-5p
+	position: 69 92
+	>Target: eeeeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-4784
+	position: 69 89
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:18
+microRNA: hsa-miR-6738-3p
+	position: 99 118
+	>Target: HhhhhhhhhhhhHiiiiii	Occurrences:1
+microRNA: hsa-miR-6763-5p
+	position: 71 90
+	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: hsa-miR-6764-3p
+	position: 53 73
+	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:19
+	position: 1 16
+	>Target: eeeeeeeeeeeeeee	Occurrences:3
+microRNA: hsa-miR-6824-3p
+	position: 52 73
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:19
+	position: 1 16
+	>Target: eeeeeeeeeeeeeee	Occurrences:3
+microRNA: hsa-miR-6858-5p
+	position: 72 90
+	>Target: eeeeeeeeeeeeeeeeee	Occurrences:18
+microRNA: hsa-miR-8089
+	position: 65 91
+	>Target: eeeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:1
+microRNA: ptr-miR-1254
+	position: 75 104
+	 Target: eeeeeeeeeeeeeeeeeeeeIiIIIIHhh	Occurrences:1
+	 Target: eeeeeeeeeeeeeeeeeeeeIIIIIIHhh	Occurrences:15
+	 Target: eeeeeeeeeeeeeeeeeeeeIIIIiiHhh	Occurrences:1
+microRNA: ptr-miR-1322
+	position: 79 97
+	>Target: eeeeeeeeeeeeeeeeIi	Occurrences:1
+	>Target: eeeeeeeeeeeeeeeeII	Occurrences:18
+microRNA: ptr-miR-4667
+	position: 69 91
+	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:1

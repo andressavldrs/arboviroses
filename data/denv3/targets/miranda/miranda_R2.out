@@ -1,0 +1,2994 @@
+
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+miranda v3.3a    microRNA Target Scanning Algorithm
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+(c) 2003 Memorial Sloan-Kettering Cancer Center, New York
+
+Authors: Anton Enright, Bino John, Chris Sander and Debora Marks
+(mirnatargets (at) cbio.mskcc.org - reaches all authors)
+
+Software written by: Anton Enright
+Distributed for anyone to use under the GNU Public License (GPL),
+See the files 'COPYING' and 'LICENSE' for details
+
+If you use this software please cite:
+Enright AJ, John B, Gaul U, Tuschl T, Sander C and Marks DS;
+(2003) Genome Biology; 5(1):R1.
+
+   miranda comes with ABSOLUTELY NO WARRANTY;
+   This is free software, and you are welcome to redistribute it
+   under certain conditions; type `miranda --license' for details.
+
+Current Settings:
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Query Filename: 	mature_primates.fa
+Reference Filename:	denv3/3UTR/R2/denv3_R2_norep.fasta
+Gap Open Penalty:	-9.000000
+Gap Extend Penalty:	-4.000000
+Score Threshold:	150.000000
+Energy Threshold:	-7.000000 kcal/mol
+Scaling Parameter:	4.000000
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+   Forward:	Score: 157.000000  Q:2 to 18  R:28 to 49 Align Len (16) (75.00%) (81.25%)
+
+   Query:    3' uacauACACCCUGCCAUUUGGu 5'
+                     || | |:| ||||||| 
+   Ref:      5' aagccTGGGAGGCTGTAAACCg 3'
+
+   Energy:  -18.690001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-299-5p	EU482456	157.00	-18.69	2 18	28 49	16	75.00%	81.25%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-299-5p	EU482456	157.00	-18.69	157.00	-18.69	8051	22	152	 28
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 20  R:52 to 71 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' ggUAGAAAUGGUCUGUCACAa 5'
+                  | || || |: ||||||| 
+   Ref:      5' gaAGCTGTA-CGCACAGTGTa 3'
+
+   Energy:  -13.350000 kCal/Mol
+
+Scores for this hit:
+>ggo-miR-141	KT726343	153.00	-13.35	2 20	52 71	18	72.22%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ggo-miR-141	KT726343	153.00	-13.35	153.00	-13.35	12154	21	152	 52
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 20  R:52 to 71 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' ggUAGAAAUGGUCUGUCACAa 5'
+                  | || || |: ||||||| 
+   Ref:      5' gaAGCTGTA-CGCACAGTGTa 3'
+
+   Energy:  -13.350000 kCal/Mol
+
+Scores for this hit:
+>ggo-miR-141	GQ868546	153.00	-13.35	2 20	52 71	18	72.22%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ggo-miR-141	GQ868546	153.00	-13.35	153.00	-13.35	12156	21	152	 52
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 20  R:52 to 71 Align Len (18) (72.22%) (77.78%)
+
+   Query:    3' ggUAGAAAUGGUCUGUCACAa 5'
+                  | || || |: ||||||| 
+   Ref:      5' gaAGCTGTA-CGCACAGTGTa 3'
+
+   Energy:  -13.350000 kCal/Mol
+
+Scores for this hit:
+>ggo-miR-141	KF955455	153.00	-13.35	2 20	52 71	18	72.22%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ggo-miR-141	KF955455	153.00	-13.35	153.00	-13.35	12162	21	152	 52
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 20  R:49 to 70 Align Len (19) (63.16%) (78.95%)
+
+   Query:    3' caCUGUAAGUAGG-GGGCCACc 5'
+                  |: |  ::||| ||||||| 
+   Ref:      5' gtGGAAGCTGTCCGCCCGGTGt 3'
+
+   Energy:  -25.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-181d-3p	FJ390373	150.00	-25.50	2 20	49 70	19	63.16%	78.95%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-181d-3p	FJ390373	150.00	-25.50	150.00	-25.50	17602	21	152	 49
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 19  R:129 to 152 Align Len (20) (75.00%) (75.00%)
+
+   Query:    3' cagGACUC---UCGCGACGGAGGa 5'
+                   |||||   |||  ||||||| 
+   Ref:      5' gcaCTGAGGGAAGCTGTGCCTCCt 3'
+
+   Energy:  -28.549999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-650	KF955466	157.00	-28.55	2 19	129 152	20	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-650	KF955466	157.00	-28.55	157.00	-28.55	24468	21	152	 129
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ182039	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ182039	152.00	-28.87	152.00	-28.87	33844	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639725	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639725	152.00	-28.87	152.00	-28.87	33845	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	KT726343	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	KT726343	152.00	-28.87	152.00	-28.87	33846	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gtggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -27.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ024465	152.00	-27.10	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ024465	152.00	-27.10	152.00	-27.10	33847	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	GQ868546	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	GQ868546	152.00	-28.87	152.00	-28.87	33848	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639825	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639825	152.00	-28.87	152.00	-28.87	33849	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	EU687197	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	EU687197	152.00	-28.87	152.00	-28.87	33850	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gtggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -27.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	EU482457	152.00	-27.10	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	EU482457	152.00	-27.10	152.00	-27.10	33851	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ432743	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ432743	152.00	-28.87	152.00	-28.87	33852	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gtggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -27.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ898455	152.00	-27.10	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ898455	152.00	-27.10	152.00	-27.10	33853	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gtggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -27.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	KF955455	152.00	-27.10	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	KF955455	152.00	-27.10	152.00	-27.10	33854	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ882576	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ882576	152.00	-28.87	152.00	-28.87	33855	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639722	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639722	152.00	-28.87	152.00	-28.87	33856	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ182041	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ182041	152.00	-28.87	152.00	-28.87	33857	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639728	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639728	152.00	-28.87	152.00	-28.87	33858	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	EU529691	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	EU529691	152.00	-28.87	152.00	-28.87	33859	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639746	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639746	152.00	-28.87	152.00	-28.87	33860	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	EU482456	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	EU482456	152.00	-28.87	152.00	-28.87	33861	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639770	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639770	152.00	-28.87	152.00	-28.87	33862	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	GQ199888	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	GQ199888	152.00	-28.87	152.00	-28.87	33863	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	KF955466	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	KF955466	152.00	-28.87	152.00	-28.87	33864	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gtggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -27.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ898456	152.00	-27.10	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ898456	152.00	-27.10	152.00	-27.10	33865	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639729	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639729	152.00	-28.87	152.00	-28.87	33866	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	EU529690	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	EU529690	152.00	-28.87	152.00	-28.87	33867	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ882573	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ882573	152.00	-28.87	152.00	-28.87	33868	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ547083	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ547083	152.00	-28.87	152.00	-28.87	33869	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gtggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -27.100000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	EU482454	152.00	-27.10	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	EU482454	152.00	-27.10	152.00	-27.10	33870	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ390373	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ390373	152.00	-28.87	152.00	-28.87	33871	22	152	 80
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 19  R:80 to 100 Align Len (17) (70.59%) (82.35%)
+
+   Query:    3' ggagGGUCACGCCCUGGGGAGg 5'
+                    ::|| | | |||||||| 
+   Ref:      5' gcggTTAGAG-GAGACCCCTCc 3'
+
+   Energy:  -28.870001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-1914-3p	FJ639727	152.00	-28.87	2 19	80 100	17	70.59%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-1914-3p	FJ639727	152.00	-28.87	152.00	-28.87	33872	22	152	 80
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 19  R:129 to 152 Align Len (20) (75.00%) (75.00%)
+
+   Query:    3' cagGACUC---UCGCGACGGAGGa 5'
+                   |||||   |||  ||||||| 
+   Ref:      5' gcaCTGAGGGAAGCTGTGCCTCCt 3'
+
+   Energy:  -28.549999 kCal/Mol
+
+Scores for this hit:
+>ptr-miR-650	KF955466	157.00	-28.55	2 19	129 152	20	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ptr-miR-650	KF955466	157.00	-28.55	157.00	-28.55	44420	21	152	 129
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 18  R:28 to 49 Align Len (16) (75.00%) (81.25%)
+
+   Query:    3' uacauACACCCUGCCAUUUGGu 5'
+                     || | |:| ||||||| 
+   Ref:      5' aagccTGGGAGGCTGTAAACCg 3'
+
+   Energy:  -18.690001 kCal/Mol
+
+Scores for this hit:
+>ptr-miR-299	EU482456	157.00	-18.69	2 18	28 49	16	75.00%	81.25%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ptr-miR-299	EU482456	157.00	-18.69	157.00	-18.69	46621	22	152	 28
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ182039	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ182039	150.00	-25.59	150.00	-25.59	50287	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639725	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639725	150.00	-25.59	150.00	-25.59	50288	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	KT726343	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	KT726343	150.00	-25.59	150.00	-25.59	50289	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ024465	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ024465	150.00	-25.59	150.00	-25.59	50290	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	GQ868546	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	GQ868546	150.00	-25.59	150.00	-25.59	50291	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639825	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639825	150.00	-25.59	150.00	-25.59	50292	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	EU687197	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	EU687197	150.00	-25.59	150.00	-25.59	50293	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	EU482457	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	EU482457	150.00	-25.59	150.00	-25.59	50294	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' gacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ432743	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ432743	150.00	-25.59	150.00	-25.59	50295	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ898455	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ898455	150.00	-25.59	150.00	-25.59	50296	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	KF955455	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	KF955455	150.00	-25.59	150.00	-25.59	50297	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ882576	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ882576	150.00	-25.59	150.00	-25.59	50298	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639722	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639722	150.00	-25.59	150.00	-25.59	50299	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ182041	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ182041	150.00	-25.59	150.00	-25.59	50300	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' agcGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -26.940001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639728	150.00	-26.94	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639728	150.00	-26.94	150.00	-26.94	50301	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGTGGGGCCCGAg 3'
+
+   Energy:  -24.980000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	EU529691	150.00	-24.98	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	EU529691	150.00	-24.98	150.00	-24.98	50302	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639746	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639746	150.00	-25.59	150.00	-25.59	50303	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' gacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	EU482456	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	EU482456	150.00	-25.59	150.00	-25.59	50304	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639770	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639770	150.00	-25.59	150.00	-25.59	50305	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	GQ199888	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	GQ199888	150.00	-25.59	150.00	-25.59	50306	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	KF955466	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	KF955466	150.00	-25.59	150.00	-25.59	50307	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ898456	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ898456	150.00	-25.59	150.00	-25.59	50308	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' agcGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -26.940001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639729	150.00	-26.94	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639729	150.00	-26.94	150.00	-26.94	50309	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	EU529690	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	EU529690	150.00	-25.59	150.00	-25.59	50310	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ882573	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ882573	150.00	-25.59	150.00	-25.59	50311	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ547083	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ547083	150.00	-25.59	150.00	-25.59	50312	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	EU482454	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	EU482454	150.00	-25.59	150.00	-25.59	50313	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAc 3'
+
+   Energy:  -25.240000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ390373	150.00	-25.24	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ390373	150.00	-25.24	150.00	-25.24	50314	19	152	 109
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 17  R:109 to 129 Align Len (17) (76.47%) (82.35%)
+
+   Query:    3' ggcCG-CGGC-UCCCGGGCUa 5'
+                   || || | :|||||||| 
+   Ref:      5' aacGCAGCAGCGGGGCCCGAg 3'
+
+   Energy:  -25.590000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-3181	FJ639727	150.00	-25.59	2 17	109 129	17	76.47%	82.35%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-3181	FJ639727	150.00	-25.59	150.00	-25.59	50315	19	152	 109
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 15  R:107 to 124 Align Len (14) (85.71%) (85.71%)
+
+   Query:    3' ccaUG-GUCCUCACCCCa 5'
+                   || ||| ||||||| 
+   Ref:      5' acaACGCAGCAGTGGGGc 3'
+
+   Energy:  -20.020000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4286	EU529691	153.00	-20.02	2 15	107 124	14	85.71%	85.71%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4286	EU529691	153.00	-20.02	153.00	-20.02	53550	17	152	 107
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ182039	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ182039	157.00	-19.95	157.00	-19.95	63540	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639725	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639725	157.00	-19.95	157.00	-19.95	63541	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	KT726343	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	KT726343	157.00	-19.95	157.00	-19.95	63542	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ024465	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ024465	157.00	-19.95	157.00	-19.95	63543	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	GQ868546	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	GQ868546	157.00	-19.95	157.00	-19.95	63544	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639825	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639825	157.00	-19.95	157.00	-19.95	63545	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	EU687197	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	EU687197	157.00	-19.95	157.00	-19.95	63546	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	EU482457	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	EU482457	157.00	-19.95	157.00	-19.95	63547	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ432743	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ432743	157.00	-19.95	157.00	-19.95	63548	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	KF955455	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	KF955455	157.00	-19.95	157.00	-19.95	63550	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639722	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639722	157.00	-19.95	157.00	-19.95	63552	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ182041	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ182041	157.00	-19.95	157.00	-19.95	63553	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639728	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639728	157.00	-19.95	157.00	-19.95	63554	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	EU529691	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	EU529691	157.00	-19.95	157.00	-19.95	63555	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	EU482456	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	EU482456	157.00	-19.95	157.00	-19.95	63557	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639770	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639770	157.00	-19.95	157.00	-19.95	63558	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	GQ199888	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	GQ199888	157.00	-19.95	157.00	-19.95	63559	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	KF955466	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	KF955466	157.00	-19.95	157.00	-19.95	63560	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639729	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639729	157.00	-19.95	157.00	-19.95	63562	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ882573	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ882573	157.00	-19.95	157.00	-19.95	63564	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ547083	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ547083	157.00	-19.95	157.00	-19.95	63565	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	EU482454	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	EU482454	157.00	-19.95	157.00	-19.95	63566	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ390373	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ390373	157.00	-19.95	157.00	-19.95	63567	22	152	 1
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 17  R:1 to 14 Align Len (15) (86.67%) (86.67%)
+
+   Query:    3' acguauACGGACCGAUCGAGGa 5'
+                      ||||||  ||||||| 
+   Ref:      5' ------TGCCTG--TAGCTCCg 3'
+
+   Energy:  -19.950001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4633-3p	FJ639727	157.00	-19.95	2 17	1 14	15	86.67%	86.67%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4633-3p	FJ639727	157.00	-19.95	157.00	-19.95	63568	22	152	 1
+Complete
+
+
+   Forward:	Score: 156.000000  Q:2 to 15  R:104 to 125 Align Len (13) (92.31%) (92.31%)
+
+   Query:    3' cucccaccaGUCGUCCACCCCGu 5'
+                         ||||| ||||||| 
+   Ref:      5' gacacaacgCAGCA-GTGGGGCc 3'
+
+   Energy:  -23.650000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-4758-3p	EU529691	156.00	-23.65	2 15	104 125	13	92.31%	92.31%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-4758-3p	EU529691	156.00	-23.65	156.00	-23.65	69877	23	152	 104
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 19  R:32 to 53 Align Len (17) (70.59%) (70.59%)
+
+   Query:    3' caggCACCAAGAUGGGACACCa 5'
+                    | |  || | ||||||| 
+   Ref:      5' ctggGAGCCTCCAACCTGTGGa 3'
+
+   Energy:  -18.629999 kCal/Mol
+
+Scores for this hit:
+>ggo-miR-140	FJ390373	150.00	-18.63	2 19	32 53	17	70.59%	70.59%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ggo-miR-140	FJ390373	150.00	-18.63	150.00	-18.63	78879	22	152	 32
+Complete
+
+
+   Forward:	Score: 157.000000  Q:2 to 18  R:29 to 49 Align Len (16) (75.00%) (81.25%)
+
+   Query:    3' acauACACCCUGCCAUUUGGu 5'
+                    || | |:| ||||||| 
+   Ref:      5' agccTGGGAGGCTGTAAACCg 3'
+
+   Energy:  -18.690001 kCal/Mol
+
+Scores for this hit:
+>ggo-miR-299	EU482456	157.00	-18.69	2 18	29 49	16	75.00%	81.25%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>ggo-miR-299	EU482456	157.00	-18.69	157.00	-18.69	80638	21	152	 29
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ639725	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ639725	153.00	-15.50	153.00	-15.50	90830	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	EU482457	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	EU482457	153.00	-15.50	153.00	-15.50	90836	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ432743	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ432743	153.00	-15.50	153.00	-15.50	90837	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ882576	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ882576	153.00	-15.50	153.00	-15.50	90840	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ639722	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ639722	153.00	-15.50	153.00	-15.50	90841	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ639728	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ639728	153.00	-15.50	153.00	-15.50	90843	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	EU482456	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	EU482456	153.00	-15.50	153.00	-15.50	90846	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	GQ199888	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	GQ199888	153.00	-15.50	153.00	-15.50	90848	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ898456	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ898456	153.00	-15.50	153.00	-15.50	90850	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ639729	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ639729	153.00	-15.50	153.00	-15.50	90851	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	EU482454	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	EU482454	153.00	-15.50	153.00	-15.50	90855	21	152	 21
+Complete
+
+
+   Forward:	Score: 153.000000  Q:2 to 18  R:21 to 41 Align Len (16) (75.00%) (75.00%)
+
+   Query:    3' gacaCCUUACAGUCCCUCCGu 5'
+                    | || | | ||||||| 
+   Ref:      5' ggacGTAAAGCCTGGGAGGCt 3'
+
+   Energy:  -15.500000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6778-3p	FJ639727	153.00	-15.50	2 18	21 41	16	75.00%	75.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6778-3p	FJ639727	153.00	-15.50	153.00	-15.50	90857	21	152	 21
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ182039	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ182039	151.00	-22.99	151.00	-22.99	90858	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639725	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639725	151.00	-22.99	151.00	-22.99	90859	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	KT726343	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	KT726343	151.00	-22.99	151.00	-22.99	90860	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ024465	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ024465	151.00	-22.99	151.00	-22.99	90861	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	GQ868546	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	GQ868546	151.00	-22.99	151.00	-22.99	90862	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639825	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639825	151.00	-22.99	151.00	-22.99	90863	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	EU687197	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	EU687197	151.00	-22.99	151.00	-22.99	90864	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	EU482457	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	EU482457	151.00	-22.99	151.00	-22.99	90865	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ432743	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ432743	151.00	-22.99	151.00	-22.99	90866	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ898455	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ898455	151.00	-22.99	151.00	-22.99	90867	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	KF955455	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	KF955455	151.00	-22.99	151.00	-22.99	90868	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ882576	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ882576	151.00	-22.99	151.00	-22.99	90869	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639722	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639722	151.00	-22.99	151.00	-22.99	90870	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ182041	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ182041	151.00	-22.99	151.00	-22.99	90871	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639728	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639728	151.00	-22.99	151.00	-22.99	90872	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	EU529691	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	EU529691	151.00	-22.99	151.00	-22.99	90873	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639746	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639746	151.00	-22.99	151.00	-22.99	90874	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	EU482456	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	EU482456	151.00	-22.99	151.00	-22.99	90875	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639770	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639770	151.00	-22.99	151.00	-22.99	90876	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	GQ199888	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	GQ199888	151.00	-22.99	151.00	-22.99	90877	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	KF955466	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	KF955466	151.00	-22.99	151.00	-22.99	90878	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ898456	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ898456	151.00	-22.99	151.00	-22.99	90879	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639729	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639729	151.00	-22.99	151.00	-22.99	90880	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	EU529690	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	EU529690	151.00	-22.99	151.00	-22.99	90881	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ882573	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ882573	151.00	-22.99	151.00	-22.99	90882	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ547083	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ547083	151.00	-22.99	151.00	-22.99	90883	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	EU482454	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	EU482454	151.00	-22.99	151.00	-22.99	90884	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAt 3'
+
+   Energy:  -22.990000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ390373	151.00	-22.99	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ390373	151.00	-22.99	151.00	-22.99	90885	21	152	 83
+Complete
+
+
+   Forward:	Score: 151.000000  Q:2 to 20  R:83 to 103 Align Len (18) (61.11%) (77.78%)
+
+   Query:    3' cgGUUUGGGUCGGGGAGGGUc 5'
+                  :|:|   : ||||||||| 
+   Ref:      5' gtTAGAGGAGACCCCTCCCAc 3'
+
+   Energy:  -23.160000 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-6779-5p	FJ639727	151.00	-23.16	2 20	83 103	18	61.11%	77.78%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-6779-5p	FJ639727	151.00	-23.16	151.00	-23.16	90886	21	152	 83
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ182039	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ182039	155.00	-20.78	155.00	-20.78	98514	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639725	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639725	155.00	-20.14	155.00	-20.14	98515	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	KT726343	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	KT726343	155.00	-20.78	155.00	-20.78	98516	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ024465	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ024465	155.00	-20.78	155.00	-20.78	98517	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	GQ868546	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	GQ868546	155.00	-20.78	155.00	-20.78	98518	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639825	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639825	155.00	-20.78	155.00	-20.78	98519	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	EU687197	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	EU687197	155.00	-20.78	155.00	-20.78	98520	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	EU482457	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	EU482457	155.00	-20.14	155.00	-20.14	98521	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ432743	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ432743	155.00	-20.14	155.00	-20.14	98522	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ898455	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ898455	155.00	-20.78	155.00	-20.78	98523	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	KF955455	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	KF955455	155.00	-20.78	155.00	-20.78	98524	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ882576	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ882576	155.00	-20.14	155.00	-20.14	98525	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639722	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639722	155.00	-20.14	155.00	-20.14	98526	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ182041	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ182041	155.00	-20.78	155.00	-20.78	98527	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639728	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639728	155.00	-20.14	155.00	-20.14	98528	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	EU529691	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	EU529691	155.00	-20.78	155.00	-20.78	98529	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639746	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639746	155.00	-20.78	155.00	-20.78	98530	23	152	 23
+Complete
+
+
+   Forward:	Score: 159.000000  Q:2 to 16  R:23 to 45 Align Len (14) (78.57%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        |||::| ||||||| 
+   Ref:      5' acgtaaaaCCCGGGAGGCTGCAa 3'
+
+   Energy:  -24.540001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639770	159.00	-24.54	2 16	23 45	14	78.57%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639770	159.00	-24.54	159.00	-24.54	98532	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	GQ199888	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	GQ199888	155.00	-20.14	155.00	-20.14	98533	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	KF955466	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	KF955466	155.00	-20.78	155.00	-20.78	98534	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ898456	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ898456	155.00	-20.14	155.00	-20.14	98535	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639729	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639729	155.00	-20.14	155.00	-20.14	98536	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	EU529690	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	EU529690	155.00	-20.78	155.00	-20.78	98537	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ882573	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ882573	155.00	-20.78	155.00	-20.78	98538	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaaaCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.780001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ547083	155.00	-20.78	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ547083	155.00	-20.78	155.00	-20.78	98539	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	EU482454	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	EU482454	155.00	-20.14	155.00	-20.14	98540	23	152	 23
+Complete
+
+
+   Forward:	Score: 155.000000  Q:2 to 16  R:23 to 45 Align Len (14) (71.43%) (92.86%)
+
+   Query:    3' uggucaagGGGUUCACCGACGUc 5'
+                        ||:::| ||||||| 
+   Ref:      5' acgtaaagCCTGGGAGGCTGCAa 3'
+
+   Energy:  -20.139999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-7156-3p	FJ639727	155.00	-20.14	2 16	23 45	14	71.43%	92.86%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-7156-3p	FJ639727	155.00	-20.14	155.00	-20.14	98542	23	152	 23
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ182039	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ182039	150.00	-21.45	150.00	-21.45	100892	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639725	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639725	150.00	-21.45	150.00	-21.45	100893	22	152	 61
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 21  R:61 to 82 Align Len (19) (63.16%) (73.68%)
+
+   Query:    3' ugGUAUAGUCAGGUCUGAUCGu 5'
+                  || | ::   ||||||||| 
+   Ref:      5' cgCACAGTGTAGCAGACTAGCg 3'
+
+   Energy:  -22.030001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	KT726343	152.00	-22.03	2 21	61 82	19	63.16%	73.68%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	KT726343	152.00	-22.03	152.00	-22.03	100894	22	152	 61
+Complete
+
+
+   Forward:	Score: 152.000000  Q:2 to 21  R:61 to 82 Align Len (19) (63.16%) (73.68%)
+
+   Query:    3' ugGUAUAGUCAGGUCUGAUCGu 5'
+                  || | ::   ||||||||| 
+   Ref:      5' cgCACAGTGTAGCAGACTAGCg 3'
+
+   Energy:  -22.030001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	GQ868546	152.00	-22.03	2 21	61 82	19	63.16%	73.68%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	GQ868546	152.00	-22.03	152.00	-22.03	100896	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639825	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639825	150.00	-21.45	150.00	-21.45	100897	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	EU687197	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	EU687197	150.00	-21.45	150.00	-21.45	100898	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ432743	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ432743	150.00	-21.45	150.00	-21.45	100900	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ882576	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ882576	150.00	-21.45	150.00	-21.45	100903	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639722	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639722	150.00	-21.45	150.00	-21.45	100904	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ182041	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ182041	150.00	-21.45	150.00	-21.45	100905	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639728	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639728	150.00	-21.45	150.00	-21.45	100906	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	EU529691	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	EU529691	150.00	-21.45	150.00	-21.45	100907	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639746	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639746	150.00	-21.45	150.00	-21.45	100908	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	EU482456	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	EU482456	150.00	-21.45	150.00	-21.45	100909	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639770	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639770	150.00	-21.45	150.00	-21.45	100910	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	GQ199888	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	GQ199888	150.00	-21.45	150.00	-21.45	100911	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	KF955466	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	KF955466	150.00	-21.45	150.00	-21.45	100912	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639729	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639729	150.00	-21.45	150.00	-21.45	100914	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	EU529690	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	EU529690	150.00	-21.45	150.00	-21.45	100915	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ882573	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ882573	150.00	-21.45	150.00	-21.45	100916	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ547083	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ547083	150.00	-21.45	150.00	-21.45	100917	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcccggtgtagCAGACTAGCg 3'
+
+   Energy:  -23.879999 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ390373	150.00	-23.88	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ390373	150.00	-23.88	150.00	-23.88	100919	22	152	 61
+Complete
+
+
+   Forward:	Score: 150.000000  Q:2 to 11  R:61 to 82 Align Len (9) (100.00%) (100.00%)
+
+   Query:    3' ugguauagucagGUCUGAUCGu 5'
+                            ||||||||| 
+   Ref:      5' cgcacggtgtagCAGACTAGCg 3'
+
+   Energy:  -21.450001 kCal/Mol
+
+Scores for this hit:
+>hsa-miR-8086	FJ639727	150.00	-21.45	2 11	61 82	9	100.00%	100.00%
+
+Seq1,Seq2,Tot Score,Tot Energy,Max Score,Max Energy,Strand,Len1,Len2,Positions
+>>hsa-miR-8086	FJ639727	150.00	-21.45	150.00	-21.45	100920	22	152	 61
+Complete
+
+Scan Complete
+

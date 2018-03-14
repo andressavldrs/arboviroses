@@ -1,0 +1,17 @@
+microRNA	candidatos	total
+ggo-miR-9	5	5
+hsa-miR-6715b-3p	1	1
+hsa-miR-4692	14	14
+hsa-miR-371a-5p	9	9
+hsa-miR-4633-3p	14	14
+hsa-miR-1204	1	1
+hsa-miR-25-5p	12	12
+ptr-miR-9	5	5
+hsa-miR-8068	10	10
+hsa-miR-7151-3p	14	14
+hsa-miR-6848-3p	2	2
+hsa-miR-891a-3p	14	14
+hsa-miR-3677-5p	4	4
+hsa-miR-222-5p	2	2
+hsa-miR-9-5p	5	5
+ptr-miR-1204	1	1
