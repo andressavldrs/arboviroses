@@ -5,26 +5,26 @@ microRNA: hsa-miR-1254
 	 Target: eeeeeeeeeeeeeeeeeeeeeeeeIIHhh	Occurrences:22
 microRNA: hsa-miR-1271-3p
 	position: 84 106
-	 Target: eeeeeeeeeeeeeeeIiHhhhh	Occurrences:1
 	 Target: eeeeeeeeeeeeeeeIIHhhhh	Occurrences:22
 	 Target: eeeeeeeeeeeeeeeeeHhhhh	Occurrences:1
+	 Target: eeeeeeeeeeeeeeeIiHhhhh	Occurrences:1
 microRNA: hsa-miR-1322
-	position: 80 97
-	>Target: eeeeeeeeeeeeeeeee	Occurrences:1
 	position: 79 97
 	>Target: eeeeeeeeeeeeeeeeee	Occurrences:24
+	position: 80 97
+	>Target: eeeeeeeeeeeeeeeee	Occurrences:1
 microRNA: hsa-miR-3116
 	position: 80 104
+	 Target: eeeeeeeeeeeeeeeeeeeIiHhh	Occurrences:1
 	 Target: eeeeeeeeeeeeeeeeeeeIIHhh	Occurrences:22
 	>Target: eeeeeeeeeeeeeeeeeeeeeHhh	Occurrences:1
-	 Target: eeeeeeeeeeeeeeeeeeeIiHhh	Occurrences:1
 microRNA: hsa-miR-3191-5p
 	position: 54 74
 	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:24
-	position: 98 119
-	>Target: eIIHhhhhhhhHIIeeeeeee	Occurrences:1
 	position: 51 74
 	>Target: eeeeeeeeeeeeeeeeeeeeeee	Occurrences:1
+	position: 98 119
+	>Target: eIIHhhhhhhhHIIeeeeeee	Occurrences:1
 microRNA: hsa-miR-3619-5p
 	position: 61 82
 	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:25
@@ -47,32 +47,32 @@ microRNA: hsa-miR-554
 	position: 1 12
 	>Target: eeeeeeeeeee	Occurrences:23
 microRNA: hsa-miR-6764-3p
-	position: 1 14
-	>Target: eeeeeeeeeeeee	Occurrences:1
 	position: 53 73
 	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:25
+	position: 1 14
+	>Target: eeeeeeeeeeeee	Occurrences:1
 microRNA: hsa-miR-6824-3p
+	position: 1 14
+	>Target: eeeeeeeeeeeee	Occurrences:1
 	position: 52 73
 	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:24
 	position: 53 73
 	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:1
-	position: 1 14
-	>Target: eeeeeeeeeeeee	Occurrences:1
 microRNA: hsa-miR-8068
-	position: 26 45
-	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:1
 	position: 24 45
 	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:8
+	position: 26 45
+	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:1
 microRNA: ptr-miR-1254
 	position: 75 104
-	 Target: eeeeeeeeeeeeeeeeeeeeeeeeIiHhh	Occurrences:1
 	>Target: eeeeeeeeeeeeeeeeeeeeeeeeeeHhh	Occurrences:1
 	 Target: eeeeeeeeeeeeeeeeeeeeeeeeIIHhh	Occurrences:22
+	 Target: eeeeeeeeeeeeeeeeeeeeeeeeIiHhh	Occurrences:1
 microRNA: ptr-miR-1322
-	position: 79 97
-	>Target: eeeeeeeeeeeeeeeeee	Occurrences:24
 	position: 80 97
 	>Target: eeeeeeeeeeeeeeeee	Occurrences:1
+	position: 79 97
+	>Target: eeeeeeeeeeeeeeeeee	Occurrences:24
 microRNA: ptr-miR-550
 	position: 80 106
 	 Target: eeeeeeeeeeeeeeeeeeeIIHhhhh	Occurrences:1

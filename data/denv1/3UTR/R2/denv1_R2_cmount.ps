@@ -1,0 +1,95 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Title: Mount Ali
+%%Creator: in hiding
+%%BoundingBox: 66 209 518 686
+%%Pages: 1
+%%EndComments
+/trapez {   % use as i j height prob hue sat
+  dup 0.3 mul 1 exch sub sethsbcolor
+  newpath
+  3 index 0.5 sub 2 index moveto % i-0.5 h moveto
+  dup 1 exch rlineto
+  4 2 roll exch sub 2 sub 0 rlineto
+  neg 1 exch rlineto
+  pop closepath
+  gsave fill grestore
+  0 setgray stroke
+} def
+
+/centershow {
+  gsave 1 xs div 1 ys div scale 60 rotate
+% dup stringwidth pop 2 div neg 0 rmoveto
+  show
+  grestore
+} def
+/sequence { (\
+CCUGUAGCUCCAUCGUGGGGAUGUAAAAACCUGGGAGGCUGCAACCCAUGGAAGCUGUACGCAUGGGGUAGCAGACUAGUGGUUAGAGGAGACCCCUCCCGAAACAUAACGCAGCAGCGGGGCCCAACACCAGGGGAAGCUGUACCCUGGUG\
+) } def
+/len { sequence length } def
+72 216 translate
+/xs {72 6 mul len div} def /ys {72 6 mul 13.35113835 div} def xs ys scale
+0.03 setlinewidth
+/Times-Roman findfont 1.8 scalefont setfont
+0 1 len 1 sub {
+    dup
+    0.8 add -0.5 moveto
+    sequence exch 1 getinterval
+    gsave 1 13.35113835 len div scale show grestore
+} for
+
+/Times-Roman findfont 10 scalefont setfont
+0.01 setlinewidth
+len log 0.7 sub cvi 10 exch exp  % grid spacing
+gsave 0.5 0 translate
+/temp 12 string def
+0 exch len {
+   dup dup
+   0 moveto
+   13.35113835 1.03 mul lineto
+   cvi 1 1 sub add temp cvs centershow
+} for
+stroke
+grestore
+1 121 0.0000 0.6051 0.00 1.00 trapez
+2 120 0.6051 0.6137 0.00 1.00 trapez
+3 119 1.2188 0.6098 0.00 1.00 trapez
+4 118 1.8286 0.6112 0.16 1.00 trapez
+5 117 2.4399 0.4901 0.00 0.96 trapez
+7 115 2.9300 0.5909 0.00 1.00 trapez
+8 114 3.5209 0.6031 0.00 0.96 trapez
+9 113 4.1240 0.5010 0.00 1.00 trapez
+10 38 4.6250 0.0595 0.00 1.00 trapez
+11 37 4.6845 0.0673 0.00 1.00 trapez
+13 36 4.7518 0.3152 0.00 1.00 trapez
+14 35 5.0669 0.4068 0.00 1.00 trapez
+16 33 5.4737 0.3933 0.16 1.00 trapez
+17 32 5.8670 0.6009 0.16 1.00 trapez
+18 31 6.4679 0.6151 0.00 1.00 trapez
+19 30 7.0830 0.6142 0.00 1.00 trapez
+39 74 4.6250 0.8629 0.00 1.00 trapez
+40 73 5.4878 0.8813 0.00 0.96 trapez
+41 72 6.3692 0.8847 0.16 1.00 trapez
+42 71 7.2539 0.8815 0.16 1.00 trapez
+45 67 8.1355 0.6701 0.16 0.92 trapez
+46 66 8.8056 0.7667 0.16 1.00 trapez
+47 65 9.5722 0.8660 0.16 1.00 trapez
+48 64 10.4382 0.9694 0.00 1.00 trapez
+49 63 11.4077 0.9813 0.00 1.00 trapez
+50 62 12.3890 0.9622 0.00 1.00 trapez
+79 107 4.6250 0.1685 0.16 1.00 trapez
+80 106 4.7935 0.1744 0.00 0.92 trapez
+81 105 4.9679 0.1614 0.00 1.00 trapez
+86 100 5.1293 0.1308 0.00 0.96 trapez
+88 99 5.2602 0.3339 0.16 1.00 trapez
+89 98 5.5940 0.3352 0.00 1.00 trapez
+90 97 5.9293 0.3351 0.00 1.00 trapez
+91 96 6.2644 0.3291 0.00 1.00 trapez
+128 152 0.0000 0.9409 0.00 1.00 trapez
+129 151 0.9409 0.9916 0.16 1.00 trapez
+130 150 1.9325 0.9994 0.00 0.96 trapez
+131 149 2.9319 0.9994 0.16 1.00 trapez
+132 148 3.9313 0.9972 0.00 0.96 trapez
+133 147 4.9285 0.9696 0.32 0.96 trapez
+134 146 5.8982 0.9577 0.00 1.00 trapez
+136 145 6.8558 0.2581 0.16 0.96 trapez
+showpage

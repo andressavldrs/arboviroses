@@ -1,0 +1,76 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Title: Mount Ali
+%%Creator: in hiding
+%%BoundingBox: 66 209 518 686
+%%Pages: 1
+%%EndComments
+/trapez {   % use as i j height prob hue sat
+  dup 0.3 mul 1 exch sub sethsbcolor
+  newpath
+  3 index 0.5 sub 2 index moveto % i-0.5 h moveto
+  dup 1 exch rlineto
+  4 2 roll exch sub 2 sub 0 rlineto
+  neg 1 exch rlineto
+  pop closepath
+  gsave fill grestore
+  0 setgray stroke
+} def
+
+/centershow {
+  gsave 1 xs div 1 ys div scale 60 rotate
+% dup stringwidth pop 2 div neg 0 rmoveto
+  show
+  grestore
+} def
+/sequence { (\
+AGUUGUUAGUCUACGUGGACCGACAAGAACAGUUUCGACUCGGAAGCUUGCUUAACGUAGUGCUGACAGUUUUUUAUUAGAGAGCAGAUCUCUG\
+) } def
+/len { sequence length } def
+72 216 translate
+/xs {72 6 mul len div} def /ys {72 6 mul 4.91729587 div} def xs ys scale
+0.03 setlinewidth
+/Times-Roman findfont 1.8 scalefont setfont
+0 1 len 1 sub {
+    dup
+    0.8 add -0.5 moveto
+    sequence exch 1 getinterval
+    gsave 1 4.91729587 len div scale show grestore
+} for
+
+/Times-Roman findfont 10 scalefont setfont
+0.01 setlinewidth
+len log 0.7 sub cvi 10 exch exp  % grid spacing
+gsave 0.5 0 translate
+/temp 12 string def
+0 exch len {
+   dup dup
+   0 moveto
+   4.91729587 1.03 mul lineto
+   cvi 1 1 sub add temp cvs centershow
+} for
+stroke
+grestore
+25 74 0.0000 0.0124 0.00 1.00 trapez
+26 73 0.0124 0.0207 0.00 1.00 trapez
+27 72 0.0331 0.0247 0.00 1.00 trapez
+28 71 0.0578 0.0254 0.00 1.00 trapez
+29 70 0.0832 0.0257 0.00 1.00 trapez
+30 69 0.1090 0.0256 0.00 1.00 trapez
+32 67 0.1346 0.0202 0.00 1.00 trapez
+33 66 0.1548 0.0204 0.00 1.00 trapez
+34 65 0.1753 0.0195 0.16 1.00 trapez
+38 61 0.1947 0.0201 0.00 1.00 trapez
+39 60 0.2148 0.0206 0.16 0.91 trapez
+40 59 0.2354 0.0193 0.00 1.00 trapez
+41 57 0.2547 0.0198 0.00 1.00 trapez
+42 56 0.2745 0.0197 0.00 1.00 trapez
+44 53 0.2942 0.0163 0.16 1.00 trapez
+45 52 0.3104 0.0210 0.00 1.00 trapez
+46 51 0.3314 0.0210 0.00 1.00 trapez
+78 94 0.0000 0.3682 0.00 1.00 trapez
+79 93 0.3682 0.8653 0.00 1.00 trapez
+80 92 1.2335 0.9305 0.00 1.00 trapez
+81 91 2.1639 0.9303 0.00 1.00 trapez
+82 90 3.0942 0.9306 0.16 1.00 trapez
+83 89 4.0248 0.8925 0.00 1.00 trapez
+showpage

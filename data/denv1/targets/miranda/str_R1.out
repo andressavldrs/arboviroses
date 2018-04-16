@@ -17,13 +17,13 @@ microRNA: hsa-miR-107
 	position: 68 94
 	>Target: hhhhhhhhhhhhhhhhhhhhhhhhhh	Occurrences:86
 microRNA: hsa-miR-1234-3p
+	position: 40 61
+	 Target: eeeeeeeeeeeeeeIIIIiIH	Occurrences:86
 	position: 111 134
 	 Target: hhhhhhhhhhhhhHIiIIIIeee	Occurrences:1
 	position: 113 134
 	 Target: hhhhhhhhhhhhHiIIIIeee	Occurrences:1
 	 Target: hhhhhhhhhhhHIiIIIIeee	Occurrences:121
-	position: 40 61
-	 Target: eeeeeeeeeeeeeeIIIIiIH	Occurrences:86
 microRNA: hsa-miR-130b-5p
 	position: 65 85
 	>Target: hhhhhhhhhhhhhhhhhhhh	Occurrences:33
@@ -31,9 +31,9 @@ microRNA: hsa-miR-132-5p
 	position: 121 144
 	 Target: hhhHIiIIIIeeeeIiiIIIHhh	Occurrences:1
 	position: 123 144
+	 Target: hhHiIIIIeeeeIiiIIIHhh	Occurrences:1
 	 Target: hHIiIIIIeeeeIiiiIIHhh	Occurrences:1
 	 Target: hHIiIIIIeeeeIiiIIIHhh	Occurrences:123
-	 Target: hhHiIIIIeeeeIiiIIIHhh	Occurrences:1
 microRNA: hsa-miR-153-5p
 	position: 11 31
 	>Target: eeeeeeeeeeeeeeeeeeee	Occurrences:1
@@ -74,11 +74,11 @@ microRNA: hsa-miR-372-5p
 	position: 127 150
 	>Target: IIIIeeeeIiiIIHhhhhhhhhh	Occurrences:1
 microRNA: hsa-miR-3922-3p
+	position: 42 62
+	 Target: eeeeeeeeeeeeIIIIiIHh	Occurrences:10
 	position: 40 62
 	 Target: eeeeeeeeeeeeeeIIIIiHhh	Occurrences:1
 	 Target: eeeeeeeeeeeeeeIIIIiIHh	Occurrences:29
-	position: 42 62
-	 Target: eeeeeeeeeeeeIIIIiIHh	Occurrences:10
 microRNA: hsa-miR-4312
 	position: 28 47
 	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:3
@@ -166,13 +166,13 @@ microRNA: ptr-miR-107
 	position: 68 94
 	>Target: hhhhhhhhhhhhhhhhhhhhhhhhhh	Occurrences:86
 microRNA: ptr-miR-1234
+	position: 111 134
+	 Target: hhhhhhhhhhhhhHIiIIIIeee	Occurrences:1
+	position: 40 61
+	 Target: eeeeeeeeeeeeeeIIIIiIH	Occurrences:86
 	position: 113 134
 	 Target: hhhhhhhhhhhHIiIIIIeee	Occurrences:121
 	 Target: hhhhhhhhhhhhHiIIIIeee	Occurrences:1
-	position: 40 61
-	 Target: eeeeeeeeeeeeeeIIIIiIH	Occurrences:86
-	position: 111 134
-	 Target: hhhhhhhhhhhhhHIiIIIIeee	Occurrences:1
 microRNA: ptr-miR-204
 	position: 3 27
 	>Target: eeeeeeeeeeeeeeeeeeeeeeee	Occurrences:1

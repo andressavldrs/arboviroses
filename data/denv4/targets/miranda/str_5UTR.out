@@ -1,9 +1,9 @@
 microRNA: ggo-miR-495
 	position: 56 76
-	>Target: IIIiiIIIIIIeeeeeeeee	Occurrences:10
+	>Target: IIIiiIIIIIIeeeeeeeee	Occurrences:9
 microRNA: ggo-miR-525-5p
 	position: 79 99
-	>Target: IIIIHhhhhhHIIIIeeeee	Occurrences:12
+	>Target: IIIIHhhhhhHIIIIeeeee	Occurrences:11
 microRNA: hsa-miR-1258
 	position: 48 68
 	 Target: hhhhhHIIIIIiiIIIIIIe	Occurrences:1
@@ -12,42 +12,42 @@ microRNA: hsa-miR-3169
 	 Target: hhhhhhhhhHIIIIIiiIIII	Occurrences:1
 microRNA: hsa-miR-3180-5p
 	position: 77 100
-	>Target: eeIIIIHhhhhhHIIIIeeeeee	Occurrences:12
+	>Target: eeIIIIHhhhhhHIIIIeeeeee	Occurrences:11
 microRNA: hsa-miR-4503
 	position: 35 56
-	>Target: hhhhhhhhhhhhhhhhhhHII	Occurrences:12
+	>Target: hhhhhhhhhhhhhhhhhhHII	Occurrences:11
 microRNA: hsa-miR-4756-3p
 	position: 78 97
-	 Target: eIIIIHhhhhhHIIIIeee	Occurrences:12
+	 Target: eIIIIHhhhhhHIIIIeee	Occurrences:11
 microRNA: hsa-miR-495-3p
 	position: 55 76
-	>Target: IIIIiiIIIIIIeeeeeeeee	Occurrences:10
+	>Target: IIIIiiIIIIIIeeeeeeeee	Occurrences:9
 microRNA: hsa-miR-511-5p
 	position: 10 32
 	>Target: IIIIHhhhhhhhhhhhhhhhhh	Occurrences:1
 microRNA: hsa-miR-520a-5p
 	position: 79 99
-	>Target: IIIIHhhhhhHIIIIeeeee	Occurrences:12
+	>Target: IIIIHhhhhhHIIIIeeeee	Occurrences:11
 microRNA: hsa-miR-525-5p
 	position: 79 99
-	>Target: IIIIHhhhhhHIIIIeeeee	Occurrences:12
+	>Target: IIIIHhhhhhHIIIIeeeee	Occurrences:11
 microRNA: hsa-miR-548g-3p
 	position: 52 73
 	>Target: hHIIIIIiiIIIIIIeeeeee	Occurrences:1
 	position: 53 73
-	>Target: HIIIIIiiIIIIIIeeeeee	Occurrences:12
+	>Target: HIIIIIiiIIIIIIeeeeee	Occurrences:11
 microRNA: hsa-miR-6828-3p
-	position: 73 91
-	>Target: eeeeeeIIIIHhhhhhHI	Occurrences:6
-	>Target: eeeeeeeIIIHhhhhhHI	Occurrences:1
 	position: 72 91
-	>Target: eeeeeeeIIIIHhhhhhHI	Occurrences:6
+	>Target: eeeeeeeIIIIHhhhhhHI	Occurrences:5
+	position: 73 91
+	>Target: eeeeeeeIIIHhhhhhHI	Occurrences:1
+	>Target: eeeeeeIIIIHhhhhhHI	Occurrences:6
 microRNA: ptr-miR-1258
 	position: 48 68
 	 Target: hhhhhHIIIIIiiIIIIIIe	Occurrences:1
 microRNA: ptr-miR-495
 	position: 55 76
-	>Target: IIIIiiIIIIIIeeeeeeeee	Occurrences:10
+	>Target: IIIIiiIIIIIIeeeeeeeee	Occurrences:9
 microRNA: ptr-miR-511
 	position: 10 32
 	>Target: IIIIHhhhhhhhhhhhhhhhhh	Occurrences:1

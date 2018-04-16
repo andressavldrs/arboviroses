@@ -1,0 +1,84 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Title: Mount Ali
+%%Creator: in hiding
+%%BoundingBox: 66 209 518 686
+%%Pages: 1
+%%EndComments
+/trapez {   % use as i j height prob hue sat
+  dup 0.3 mul 1 exch sub sethsbcolor
+  newpath
+  3 index 0.5 sub 2 index moveto % i-0.5 h moveto
+  dup 1 exch rlineto
+  4 2 roll exch sub 2 sub 0 rlineto
+  neg 1 exch rlineto
+  pop closepath
+  gsave fill grestore
+  0 setgray stroke
+} def
+
+/centershow {
+  gsave 1 xs div 1 ys div scale 60 rotate
+% dup stringwidth pop 2 div neg 0 rmoveto
+  show
+  grestore
+} def
+/sequence { (\
+GUCAACACAUUUACAAAAUAAAGGAAAAUAAGAAAUCAAACAAGGCAAGAAGUCAGGCCGGAUUAAGCCAUAGUACGGUAAGAGCUAUGCUGCCUGUGAGCCCCGUCUAAGGACGUAAAAUGAAGUCAGGCCGAAAGCCACGGCUUGAGCAAACCGUGCUG\
+) } def
+/len { sequence length } def
+72 216 translate
+/xs {72 6 mul len div} def /ys {72 6 mul 9.68398477 div} def xs ys scale
+0.03 setlinewidth
+/Times-Roman findfont 1.8 scalefont setfont
+0 1 len 1 sub {
+    dup
+    0.8 add -0.5 moveto
+    sequence exch 1 getinterval
+    gsave 1 9.68398477 len div scale show grestore
+} for
+
+/Times-Roman findfont 10 scalefont setfont
+0.01 setlinewidth
+len log 0.7 sub cvi 10 exch exp  % grid spacing
+gsave 0.5 0 translate
+/temp 12 string def
+0 exch len {
+   dup dup
+   0 moveto
+   9.68398477 1.03 mul lineto
+   cvi 1 1 sub add temp cvs centershow
+} for
+stroke
+grestore
+56 132 0.0000 0.8731 0.00 1.00 trapez
+57 131 0.8731 0.8774 0.00 1.00 trapez
+58 130 1.7505 0.8774 0.00 1.00 trapez
+59 129 2.6279 0.8673 0.00 1.00 trapez
+61 127 3.4952 0.8314 0.00 1.00 trapez
+62 126 4.3266 0.8458 0.00 0.98 trapez
+63 125 5.1725 0.8068 0.00 0.98 trapez
+64 124 5.9792 0.5216 0.00 0.98 trapez
+66 91 6.5008 0.3446 0.00 1.00 trapez
+67 90 6.8454 0.3988 0.00 1.00 trapez
+68 89 7.2442 0.1018 0.00 1.00 trapez
+70 88 7.3460 0.4639 0.00 1.00 trapez
+71 87 7.8099 0.4733 0.00 1.00 trapez
+72 86 8.2832 0.4746 0.00 1.00 trapez
+73 85 8.7578 0.4749 0.00 1.00 trapez
+74 84 9.2327 0.4513 0.16 1.00 trapez
+92 101 6.5008 0.0890 0.16 1.00 trapez
+93 100 6.5898 0.0889 0.00 1.00 trapez
+104 115 6.5008 0.4827 0.00 1.00 trapez
+105 114 6.9835 0.5301 0.16 1.00 trapez
+106 113 7.5137 0.5295 0.00 1.00 trapez
+107 112 8.0432 0.5259 0.00 1.00 trapez
+136 160 -0.0000 0.7303 0.00 1.00 trapez
+137 159 0.7303 0.8314 0.00 1.00 trapez
+138 158 1.5617 0.2101 0.00 1.00 trapez
+140 157 1.7719 0.9157 0.00 0.98 trapez
+141 156 2.6875 0.9268 0.00 1.00 trapez
+142 155 3.6143 0.9270 0.16 1.00 trapez
+143 154 4.5413 0.9231 0.00 0.98 trapez
+145 153 5.4644 0.3381 0.32 1.00 trapez
+146 152 5.8026 0.3357 0.16 1.00 trapez
+showpage

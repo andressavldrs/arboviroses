@@ -1,30 +1,27 @@
 
 ############################  RNAz 2.1  ##############################
 
- Sequences: 22
+ Sequences: 21
  Columns: 94
  Reading direction: forward
- Mean pairwise identity:  93.59
- Shannon entropy: 0.17411
- G+C content: 0.42602
- Mean single sequence MFE: -25.33
- Consensus MFE: -17.55
- Energy contribution: -17.49
- Covariance contribution:  -0.06
- Combinations/Pair:   1.37
- Mean z-score:  -0.93
- Structure conservation index:   0.69
+ Mean pairwise identity:  95.39
+ Shannon entropy: 0.11793
+ G+C content: 0.43110
+ Mean single sequence MFE: -25.85
+ Consensus MFE: -25.92
+ Energy contribution: -25.33
+ Covariance contribution:  -0.59
+ Combinations/Pair:   1.40
+ Mean z-score:  -1.04
+ Structure conservation index:   1.00
  Background model: dinucleotide
  Decision model: sequence based alignment quality
- SVM decision value:  -2.50
- SVM RNA-class probability: 0.007834
- Prediction: OTHER
+ SVM decision value:   0.78
+ SVM RNA-class probability: 0.814580
+ Prediction: RNA
 
 ######################################################################
 
->AB214882
-NNNNNNNNNNNNNNNNNNNNNGACAAGAACAGUUUCGACUCGGAAGCUUGCUUAACGUAGUACUGACAGUUUUUUAUUAGAGAGCAGAUCUCUG
-........................((((((.(((...(((((.(((....)))..)).)))...))).))))))...((((((.....)))))) ( -14.40, z-score =   1.35, R)
 >KT424097
 CUCCCACGACUUACGUGGACCGACAAGAACAGUUUCGACUCGGAAGCUUGCUUAACGUAGUGCUGACAGUUUUUUAUUAGAGAGCAGAUUUCUG
 ...(((((.....))))).((((...(((....)))...)))).(((((((.....)))).)))....((((((.....))))))......... ( -20.30, z-score =   0.08, R)
@@ -90,4 +87,4 @@ AGUUGUUAGUCUACGUGGACCGACAAGAACAGUUUCGACUCGGAAGCUUGCUUAACGUAGUGCUAACAGUUUUUUAUUAG
 ..((((((((((((((...((((...(((....)))...))))(((....))).)))))).))))))))........((((((.....)))))) ( -27.40, z-score =  -1.60, R)
 >consensus
 AGUUGUUAGUCUACGUGGACCGACAAGAACAGUUUCGACUCGGAAGCUUGCUUAACGUAGUGCUGACAGUUUUUUAUUAGAGAGCAGAUCUCUG
-.(((((....((((((...((((...(((....)))...))))(((....))).)))))).)).)))..........((((((.....)))))) (-17.55 = -17.49 +  -0.06) 
+..((((((((((((((...((((...(((....)))...))))(((....))).)))))).))))))))........((((((.....)))))) (-25.92 = -25.33 +  -0.59) 

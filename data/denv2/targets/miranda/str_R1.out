@@ -1,8 +1,8 @@
 microRNA: ggo-miR-103
-	position: 124 149
-	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:2
 	position: 123 148
 	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:23
+	position: 124 149
+	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:2
 microRNA: ggo-miR-107
 	position: 124 149
 	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:2
@@ -94,10 +94,10 @@ microRNA: hsa-miR-4517
 	position: 21 45
 	>Target: eeeeeeeeeeeeeeeeeeeeeeee	Occurrences:1
 microRNA: hsa-miR-4692
-	position: 128 150
-	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:25
 	position: 130 150
 	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:2
+	position: 128 150
+	>Target: eeeeeeeeeeeeeeeeeeeee	Occurrences:25
 microRNA: hsa-miR-508-5p
 	position: 112 136
 	>Target: eeeeeeeeeeeeeeeeeeeeeeee	Occurrences:1
@@ -107,10 +107,10 @@ microRNA: hsa-miR-617
 microRNA: hsa-miR-6505-3p
 	position: 16 35
 	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:27
-	position: 13 35
-	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:4
 	position: 17 36
 	>Target: eeeeeeeeeeeeeeeeeee	Occurrences:2
+	position: 13 35
+	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:4
 microRNA: hsa-miR-6512-3p
 	position: 9 31
 	>Target: eeeeeeeeeeeeeeeeeeeeee	Occurrences:1
@@ -135,15 +135,15 @@ microRNA: hsa-miR-744-5p
 	position: 65 87
 	 Target: IIiIeeeeeeeeeeeeeIIiHh	Occurrences:1
 microRNA: ptr-miR-103
-	position: 123 148
-	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:23
 	position: 124 149
 	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:2
+	position: 123 148
+	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:23
 microRNA: ptr-miR-107
-	position: 123 148
-	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:23
 	position: 124 149
 	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:2
+	position: 123 148
+	>Target: eeeeeeeeeeeeeeeeeeeeeeeee	Occurrences:23
 microRNA: ptr-miR-135a
 	position: 29 52
 	 Target: eeeeeeeeeeeeeeeeIiiIIIH	Occurrences:1

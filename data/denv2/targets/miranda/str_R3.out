@@ -2,79 +2,79 @@ microRNA: ggo-miR-134
 	position: 85 107
 	 Target: IIIIIIeeeeeeeeeIiHhhhh	Occurrences:1
 microRNA: hsa-miR-1254
-	position: 74 103
-	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:1
-	position: 75 104
-	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:24
-	 Target: IIIIiiIIIIiIIIIeeeeeeeeeIIHhh	Occurrences:1
-	>Target: IIIIiiIIIIIIIIIeeeeeeeeeeIHhh	Occurrences:1
 	position: 77 106
 	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:4
+	position: 75 104
+	>Target: IIIIiiIIIIIIIIIeeeeeeeeeeIHhh	Occurrences:1
+	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:24
+	 Target: IIIIiiIIIIiIIIIeeeeeeeeeIIHhh	Occurrences:1
 	position: 76 105
 	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:2
+	position: 74 103
+	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:1
 microRNA: hsa-miR-1271-3p
+	position: 84 107
+	 Target: IIIIIIIeeeeeeeeeIIHhhhh	Occurrences:2
 	position: 83 106
 	 Target: IIIIIIIeeeeeeeeeIIHhhhh	Occurrences:24
 	 Target: IIiIIIIeeeeeeeeeIIHhhhh	Occurrences:1
 	 Target: IIIIIIIeeeeeeeeeeIHhhhh	Occurrences:1
-	position: 84 107
-	 Target: IIIIIIIeeeeeeeeeIIHhhhh	Occurrences:2
-	position: 85 108
-	 Target: IIIIIIIeeeeeeeeeIIHhhhh	Occurrences:4
 	position: 82 105
 	 Target: IIIIIIIeeeeeeeeeIIHhhhh	Occurrences:1
+	position: 85 108
+	 Target: IIIIIIIeeeeeeeeeIIHhhhh	Occurrences:4
 microRNA: hsa-miR-1322
 	position: 79 97
-	>Target: iiIIIIiIIIIeeeeeee	Occurrences:1
 	>Target: iiIIIIIIIIIeeeeeee	Occurrences:25
+	>Target: iiIIIIiIIIIeeeeeee	Occurrences:1
+	position: 78 96
+	>Target: iiIIIIIIIIIeeeeeee	Occurrences:1
 	position: 81 99
 	>Target: iiIIIIIIIIIeeeeeee	Occurrences:4
 	position: 80 98
 	>Target: iiIIIIIIIIIeeeeeee	Occurrences:3
-	position: 78 96
-	>Target: iiIIIIIIIIIeeeeeee	Occurrences:1
 microRNA: hsa-miR-134-5p
 	position: 84 107
 	 Target: IIIIIIIeeeeeeeeeIiHhhhh	Occurrences:1
 microRNA: hsa-miR-153-5p
+	position: 102 122
+	>Target: hhhhhhhHIIeeeeeeeeee	Occurrences:1
 	position: 102 123
 	>Target: hhhhhhhHIIeeeeeeeeeee	Occurrences:1
 	position: 101 122
 	>Target: hhhhhhhHIIeeeeeeeeeee	Occurrences:1
-	position: 102 122
-	>Target: hhhhhhhHIIeeeeeeeeee	Occurrences:1
 microRNA: hsa-miR-3116
 	position: 84 106
 	 Target: IIIIIIIIeeeeeeeeeIIHhh	Occurrences:4
 	position: 82 104
 	 Target: IIIIIIIIeeeeeeeeeIIHhh	Occurrences:24
-	 Target: IIIiIIIIeeeeeeeeeIIHhh	Occurrences:1
 	>Target: IIIIIIIIeeeeeeeeeeIHhh	Occurrences:1
-	position: 81 103
-	 Target: IIIIIIIIeeeeeeeeeIIHhh	Occurrences:1
+	 Target: IIIiIIIIeeeeeeeeeIIHhh	Occurrences:1
 	position: 83 105
 	 Target: IIIIIIIIeeeeeeeeeIIHhh	Occurrences:2
+	position: 81 103
+	 Target: IIIIIIIIeeeeeeeeeIIHhh	Occurrences:1
 microRNA: hsa-miR-3118
 	position: 84 107
 	 Target: IIIIIIIeeeeeeeeeIiHhhhh	Occurrences:1
 microRNA: hsa-miR-3191-5p
 	position: 50 73
 	>Target: iiiiIIIHhhhhhhHIIIiiiii	Occurrences:1
-	position: 52 75
-	>Target: iiiiIIIHhhhhhhHIIIiiiii	Occurrences:3
 	position: 53 76
 	>Target: iiiiIIIHhhhhhhHIIIiiiii	Occurrences:4
 	position: 51 74
 	>Target: iiiiIIIHhhhhhhHIIIiiiii	Occurrences:27
+	position: 52 75
+	>Target: iiiiIIIHhhhhhhHIIIiiiii	Occurrences:3
 microRNA: hsa-miR-3619-5p
-	position: 61 82
-	 Target: hhhhHIIIiiiiiiIIIIiiI	Occurrences:27
 	position: 62 83
 	 Target: hhhhHIIIiiiiiiIIIIiiI	Occurrences:3
-	position: 60 81
-	 Target: hhhhHIIIiiiiiiIIIIiiI	Occurrences:1
 	position: 63 84
 	 Target: hhhhHIIIiiiiiiIIIIiiI	Occurrences:4
+	position: 61 82
+	 Target: hhhhHIIIiiiiiiIIIIiiI	Occurrences:27
+	position: 60 81
+	 Target: hhhhHIIIiiiiiiIIIIiiI	Occurrences:1
 microRNA: hsa-miR-4540
 	position: 1 14
 	>Target: eeeeeeeeeeeee	Occurrences:4
@@ -82,21 +82,21 @@ microRNA: hsa-miR-4677-5p
 	position: 28 46
 	>Target: iiiiiiiiiiiiiiiIII	Occurrences:1
 microRNA: hsa-miR-4689
+	position: 72 91
+	 Target: iiiiIIIIiiIIIIIIIII	Occurrences:3
 	position: 71 90
 	 Target: iiiiIIIIiiIIIIiIIII	Occurrences:1
 	 Target: iiiiIIIIiiIIIIIIIII	Occurrences:26
-	position: 70 89
-	 Target: iiiiIIIIiiIIIIIIIII	Occurrences:1
 	position: 73 92
 	 Target: iiiiIIIIiiIIIIIIIII	Occurrences:4
-	position: 72 91
-	 Target: iiiiIIIIiiIIIIIIIII	Occurrences:3
+	position: 70 89
+	 Target: iiiiIIIIiiIIIIIIIII	Occurrences:1
 microRNA: hsa-miR-4784
-	position: 69 89
-	 Target: iiiiiiIIIIiiIIIIiIII	Occurrences:1
-	 Target: iiiiiiIIIIiiIIIIIIII	Occurrences:26
 	position: 71 91
 	 Target: iiiiiiIIIIiiIIIIIIII	Occurrences:4
+	position: 69 89
+	 Target: iiiiiiIIIIiiIIIIIIII	Occurrences:26
+	 Target: iiiiiiIIIIiiIIIIiIII	Occurrences:1
 	position: 68 88
 	 Target: iiiiiiIIIIiiIIIIIIII	Occurrences:1
 	position: 70 90
@@ -111,69 +111,69 @@ microRNA: hsa-miR-5588-5p
 	position: 97 116
 	 Target: eeIIHhhhhhhhHIIeeee	Occurrences:1
 microRNA: hsa-miR-5705
-	position: 16 38
-	>Target: iIIIIIIiiiiiiiiiiiiiii	Occurrences:7
 	position: 17 39
 	>Target: iIIIIIIiiiiiiiiiiiiiii	Occurrences:1
+	position: 16 38
+	>Target: iIIIIIIiiiiiiiiiiiiiii	Occurrences:7
 microRNA: hsa-miR-6764-3p
 	position: 55 75
 	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:4
-	position: 54 74
-	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:3
 	position: 52 72
 	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:1
+	position: 1 15
+	>Target: eeeeeeeeeeeeII	Occurrences:2
+	position: 53 73
+	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:27
+	position: 54 74
+	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:3
+microRNA: hsa-miR-6824-3p
 	position: 53 73
 	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:27
 	position: 1 15
 	>Target: eeeeeeeeeeeeII	Occurrences:2
-microRNA: hsa-miR-6824-3p
-	position: 52 72
-	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:1
+	position: 54 74
+	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:3
 	position: 55 75
 	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:4
-	position: 54 74
-	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:3
-	position: 53 73
-	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:27
-	position: 1 15
-	>Target: eeeeeeeeeeeeII	Occurrences:2
+	position: 52 72
+	 Target: iiIIIHhhhhhhHIIIiiii	Occurrences:1
 microRNA: hsa-miR-6844
 	position: 23 43
 	>Target: iiiiiiiiiiiiiiiiiiii	Occurrences:1
 microRNA: hsa-miR-6858-5p
+	position: 74 92
+	 Target: iiiIIIIiiIIIIIIIII	Occurrences:4
+	position: 73 91
+	 Target: iiiIIIIiiIIIIIIIII	Occurrences:3
 	position: 71 89
 	 Target: iiiIIIIiiIIIIIIIII	Occurrences:1
 	position: 72 90
 	 Target: iiiIIIIiiIIIIiIIII	Occurrences:1
 	 Target: iiiIIIIiiIIIIIIIII	Occurrences:26
-	position: 73 91
-	 Target: iiiIIIIiiIIIIIIIII	Occurrences:3
-	position: 74 92
-	 Target: iiiIIIIiiIIIIIIIII	Occurrences:4
 microRNA: hsa-miR-6876-3p
 	position: 24 48
 	 Target: iiiiiiiiiiiiiiiiiiiIIIIi	Occurrences:1
 microRNA: ptr-miR-1254
-	position: 76 105
-	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:2
 	position: 74 103
 	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:1
-	position: 75 104
-	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:24
-	 Target: IIIIiiIIIIiIIIIeeeeeeeeeIIHhh	Occurrences:1
-	>Target: IIIIiiIIIIIIIIIeeeeeeeeeeIHhh	Occurrences:1
+	position: 76 105
+	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:2
 	position: 77 106
 	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:4
+	position: 75 104
+	 Target: IIIIiiIIIIiIIIIeeeeeeeeeIIHhh	Occurrences:1
+	>Target: IIIIiiIIIIIIIIIeeeeeeeeeeIHhh	Occurrences:1
+	 Target: IIIIiiIIIIIIIIIeeeeeeeeeIIHhh	Occurrences:24
 microRNA: ptr-miR-1322
-	position: 79 97
-	>Target: iiIIIIiIIIIeeeeeee	Occurrences:1
-	>Target: iiIIIIIIIIIeeeeeee	Occurrences:25
-	position: 81 99
-	>Target: iiIIIIIIIIIeeeeeee	Occurrences:4
 	position: 80 98
 	>Target: iiIIIIIIIIIeeeeeee	Occurrences:3
+	position: 81 99
+	>Target: iiIIIIIIIIIeeeeeee	Occurrences:4
 	position: 78 96
 	>Target: iiIIIIIIIIIeeeeeee	Occurrences:1
+	position: 79 97
+	>Target: iiIIIIIIIIIeeeeeee	Occurrences:25
+	>Target: iiIIIIiIIIIeeeeeee	Occurrences:1
 microRNA: ptr-miR-134
 	position: 84 107
 	 Target: IIIIIIIeeeeeeeeeIiHhhhh	Occurrences:1

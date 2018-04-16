@@ -3,18 +3,18 @@ microRNA: ggo-miR-455
 	>Target: IIIIIiIIIIIHhhhhhhhh	Occurrences:2
 microRNA: ggo-miR-515-5p
 	position: 61 84
-	 Target: IIIIIIeeeeeeeeeeIIIIHhh	Occurrences:2
 	 Target: IIIIIIeeeeeeeeeeIIIHhhh	Occurrences:1
+	 Target: IIIIIIeeeeeeeeeeIIIIHhh	Occurrences:2
 microRNA: ggo-miR-519e-5p
 	position: 63 84
 	 Target: IIIIeeeeeeeeeeIIIHhhh	Occurrences:1
 	 Target: IIIIeeeeeeeeeeIIIIHhh	Occurrences:2
 microRNA: ggo-miR-548d
+	position: 55 75
+	>Target: IIIIiiIIiIIIeeeeeeee	Occurrences:1
 	position: 52 75
 	>Target: hHIIIIIiiIIIIIIeeeeeeee	Occurrences:22
 	>Target: hHiIIIIiiIIIIIIeeeeeeee	Occurrences:1
-	position: 55 75
-	>Target: IIIIiiIIiIIIeeeeeeee	Occurrences:1
 microRNA: ggo-miR-548e
 	position: 52 74
 	>Target: hHiIIIIiiIIIIIIeeeeeee	Occurrences:1
@@ -46,8 +46,8 @@ microRNA: hsa-miR-515-5p
 	 Target: IIIIIIeeeeeeeeeeIIIHhhh	Occurrences:1
 microRNA: hsa-miR-519e-5p
 	position: 63 84
-	 Target: IIIIeeeeeeeeeeIIIHhhh	Occurrences:1
 	 Target: IIIIeeeeeeeeeeIIIIHhh	Occurrences:2
+	 Target: IIIIeeeeeeeeeeIIIHhhh	Occurrences:1
 microRNA: hsa-miR-548a-3p
 	position: 51 74
 	>Target: hhHIIIIIiiIIiIIIeeeeeee	Occurrences:1
@@ -61,8 +61,8 @@ microRNA: hsa-miR-548ae-3p
 	>Target: IIIIiiIIiIIIeeeeeeee	Occurrences:1
 microRNA: hsa-miR-548ah-3p
 	position: 51 75
-	>Target: hhHIIIIIiiIIIIIIeeeeeeee	Occurrences:22
 	>Target: hhHiIIIIiiIIIIIIeeeeeeee	Occurrences:1
+	>Target: hhHIIIIIiiIIIIIIeeeeeeee	Occurrences:22
 	position: 54 75
 	>Target: IIIIIiiIIiIIIeeeeeeee	Occurrences:1
 microRNA: hsa-miR-548aj-3p
@@ -73,14 +73,14 @@ microRNA: hsa-miR-548aj-3p
 	>Target: IIIIiiIIiIIIeeeeeeee	Occurrences:1
 microRNA: hsa-miR-548am-3p
 	position: 51 75
-	>Target: hhHIIIIIiiIIIIIIeeeeeeee	Occurrences:22
 	>Target: hhHiIIIIiiIIIIIIeeeeeeee	Occurrences:1
+	>Target: hhHIIIIIiiIIIIIIeeeeeeee	Occurrences:22
 	position: 54 75
 	>Target: IIIIIiiIIiIIIeeeeeeee	Occurrences:1
 microRNA: hsa-miR-548aq-3p
 	position: 51 75
-	>Target: hhHiIIIIiiIIIIIIeeeeeeee	Occurrences:1
 	>Target: hhHIIIIIiiIIIIIIeeeeeeee	Occurrences:22
+	>Target: hhHiIIIIiiIIIIIIeeeeeeee	Occurrences:1
 	position: 54 75
 	>Target: IIIIIiiIIiIIIeeeeeeee	Occurrences:1
 microRNA: hsa-miR-548ar-3p
@@ -91,9 +91,9 @@ microRNA: hsa-miR-548az-3p
 	>Target: IIIIIiiIIiIIIeeeeeee	Occurrences:1
 microRNA: hsa-miR-548e-3p
 	position: 50 74
-	>Target: hhhHiIIIIiiIIIIIIeeeeeee	Occurrences:1
 	>Target: hhhHIIIIIiiIIiIIIeeeeeee	Occurrences:1
 	>Target: hhhHIIIIIiiIIIIIIeeeeeee	Occurrences:24
+	>Target: hhhHiIIIIiiIIIIIIeeeeeee	Occurrences:1
 microRNA: hsa-miR-548f-3p
 	position: 56 74
 	>Target: IIIiiIIIIIIeeeeeee	Occurrences:24
@@ -109,21 +109,21 @@ microRNA: hsa-miR-548j-3p
 	>Target: IIIIIiiIIIIIIeeeeeeee	Occurrences:2
 microRNA: hsa-miR-548x-3p
 	position: 56 75
-	>Target: IIIiiIIIIIIeeeeeeee	Occurrences:19
 	>Target: IIIiiIIiIIIeeeeeeee	Occurrences:1
+	>Target: IIIiiIIIIIIeeeeeeee	Occurrences:19
 	position: 53 75
 	>Target: HIIIIIiiIIIIIIeeeeeeee	Occurrences:2
 microRNA: hsa-miR-578
 	position: 9 30
-	>Target: IIIIIHhhhhhhhhhhhhhhh	Occurrences:18
 	>Target: IIIIiHhhhhhhhhhhhhhhh	Occurrences:1
+	>Target: IIIIIHhhhhhhhhhhhhhhh	Occurrences:18
 microRNA: hsa-miR-6728-3p
 	position: 70 90
 	>Target: eeeeeeeIIIHhhhhhhhHI	Occurrences:1
 microRNA: hsa-miR-6828-3p
 	position: 70 89
-	>Target: eeeeeeeIIIHhhhhhhhH	Occurrences:1
 	>Target: eeeeeeeIIIIHhhhhhHI	Occurrences:24
+	>Target: eeeeeeeIIIHhhhhhhhH	Occurrences:1
 microRNA: hsa-miR-7152-5p
 	position: 8 30
 	>Target: iIIIIIHhhhhhhhhhhhhhhh	Occurrences:1
@@ -135,18 +135,18 @@ microRNA: ptr-miR-455
 	>Target: IIIIIiIIIIIHhhhhhhhh	Occurrences:2
 microRNA: ptr-miR-548a
 	position: 51 74
+	>Target: hhHIIIIIiiIIiIIIeeeeeee	Occurrences:1
 	>Target: hhHiIIIIiiIIIIIIeeeeeee	Occurrences:1
 	>Target: hhHIIIIIiiIIIIIIeeeeeee	Occurrences:24
-	>Target: hhHIIIIIiiIIiIIIeeeeeee	Occurrences:1
 microRNA: ptr-miR-548e
 	position: 52 74
 	>Target: hHiIIIIiiIIIIIIeeeeeee	Occurrences:1
-	>Target: hHIIIIIiiIIIIIIeeeeeee	Occurrences:24
 	>Target: hHIIIIIiiIIiIIIeeeeeee	Occurrences:1
+	>Target: hHIIIIIiiIIIIIIeeeeeee	Occurrences:24
 microRNA: ptr-miR-548f
 	position: 56 74
-	>Target: IIIiiIIiIIIeeeeeee	Occurrences:1
 	>Target: IIIiiIIIIIIeeeeeee	Occurrences:24
+	>Target: IIIiiIIiIIIeeeeeee	Occurrences:1
 microRNA: ptr-miR-570
 	position: 54 75
 	>Target: IIIIIiiIIIIIIeeeeeeee	Occurrences:2

@@ -1,23 +1,23 @@
 
 ############################  RNAz 2.1  ##############################
 
- Sequences: 13
+ Sequences: 12
  Columns: 101
  Reading direction: forward
- Mean pairwise identity:  97.21
- Shannon entropy: 0.06241
- G+C content: 0.41356
- Mean single sequence MFE: -27.88
- Consensus MFE: -27.50
- Energy contribution: -27.59
- Covariance contribution:   0.10
+ Mean pairwise identity:  97.31
+ Shannon entropy: 0.05929
+ G+C content: 0.41419
+ Mean single sequence MFE: -28.11
+ Consensus MFE: -27.93
+ Energy contribution: -27.95
+ Covariance contribution:   0.02
  Combinations/Pair:   1.07
- Mean z-score:  -1.31
+ Mean z-score:  -1.39
  Structure conservation index:   0.99
  Background model: dinucleotide
  Decision model: sequence based alignment quality
- SVM decision value:   0.91
- SVM RNA-class probability: 0.849154
+ SVM decision value:   1.02
+ SVM RNA-class probability: 0.874977
  Prediction: RNA
 
 ######################################################################
@@ -46,9 +46,6 @@ AGUUGUUAGUCUGUGUGGACCGACAAGGACYGUUCCAAAUCGGAAGCUUGCUUAACACAGUUCUAACAGUUUGUUUGAAU
 >AF326827
 AGUUGUUAGUCUGUGUGGACCGACAAGGACAGUUCCAAAUCGGAAGCUUGCUUAACACAGUUCUAACAGUUUGUUUGAAUAGAGAGCAGAUCUCUGGAAAA
 ..(((((((.((((((...((((...(((....)))...))))(((....))).))))))..)))))))..........((((((.....))))))..... ( -28.70, z-score =  -1.41, R)
->KR011349
-AGUUGUUAGUCUGUGUGGANCGACAAGGACAGUUCCAAAUCGGAAGCUUGCUUAACACAGUUCUAACAGUUUGUUUAGAUAGAGAGCAGAUCUCUGGAAAA
-..(((((((.((((((....(((...(((....)))...))).(((....))).))))))..)))))))..........((((((.....))))))..... ( -25.10, z-score =  -0.32, R)
 >AY618990
 AGUUGUUAGUCUGUGUGGACCGACAAGGACAGUUCCAAAUCGGAAGCUUGCUUAACACAGUUCUAACAGUUUGUUUAGAUAGAGAGCAGAUCUCUGGAAAA
 ..(((((((.((((((...((((...(((....)))...))))(((....))).))))))..)))))))..........((((((.....))))))..... ( -28.70, z-score =  -1.48, R)
@@ -63,4 +60,4 @@ AGUUGUUAGUCUGUGUGGACCGACAAGGACAGUUCCAAAUCGGAAGCUUGCUUAACACAGUUCUAACAGUUUGUUUAAAU
 ..(((((((.((((((...((((...(((....)))...))))(((....))).))))))..)))))))..........((((((.....))))))..... ( -28.70, z-score =  -1.77, R)
 >consensus
 AGUUGUUAGUCUGUGUGGACCGACAAGGACAGUUCCAAAUCGGAAGCUUGCUUAACACAGUUCUAACAGUUUGUUUGAAUAGAGAGCAGAUCUCUGGAAAA
-..(((((((.((((((...((((...(((....)))...))))(((....))).))))))..)))))))..........((((((.....))))))..... (-27.50 = -27.59 +   0.10) 
+..(((((((.((((((...((((...(((....)))...))))(((....))).))))))..)))))))..........((((((.....))))))..... (-27.93 = -27.95 +   0.02) 
