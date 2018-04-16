@@ -29,7 +29,6 @@ function utr5 {
     # run coloraln.pl
     perl coloraln.pl -s ${reg}/alirna.ps ${reg}/${OUT}.aln > ${reg}/${OUT}_coloraln.ps
 
-    cd ..
 }
 
 function utr3 {
@@ -52,7 +51,6 @@ function utr3 {
         # run coloraln.pl
         perl coloraln.pl -s alirna.ps ${reg}/${OUT}_R${x}.aln > ${reg}/${OUT}_R${x}_coloraln.ps
 
-        cd ..
     done
 }
 
