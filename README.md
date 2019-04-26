@@ -63,8 +63,9 @@ files and bash scripts (.sh) to automatize execution
 
 ## Data
 All data is in a directory data/ and has subdirectories for each virus. 
+
 	Yellow fever virus	-> YFV/ 
-	Zika virus			-> ZIKV/ 
+	Zika virus		-> ZIKV/ 
 	Dengue sorotype 1	-> denv1/ 
 	Dengue sorotype 2	-> denv2/ 
 	Dengue sorotype 3	-> denv3/ 
